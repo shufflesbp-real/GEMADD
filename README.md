@@ -7,7 +7,6 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Datasets](#datasets)
-- [Usage](#usage)
 
 ---
 
