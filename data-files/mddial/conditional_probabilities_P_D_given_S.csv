@@ -1,0 +1,631 @@
+disease,symptom,P(D|S)
+Esophagitis,fear of cold,0.0
+Enteritis,fear of cold,0.012987012987012988
+Asthma,fear of cold,0.0025031289111389237
+Coronary heart disease,fear of cold,0.001282051282051282
+Pneumonia,fear of cold,0.002369668246445498
+Rhinitis,fear of cold,0.0013605442176870747
+Thyroiditis,fear of cold,0.0
+Traumatic brain injury,fear of cold,0.0016420361247947454
+Dermatitis,fear of cold,0.0024125452352231603
+External otitis,fear of cold,0.0
+Mastitis,fear of cold,0.058163265306122446
+Esophagitis,poor sleep,0.0025575447570332483
+Asthma,poor sleep,0.0025031289111389237
+Coronary heart disease,poor sleep,0.0
+Pneumonia,poor sleep,0.002369668246445498
+Thyroiditis,poor sleep,0.008278145695364239
+Traumatic brain injury,poor sleep,0.0016420361247947454
+Dermatitis,poor sleep,0.0048250904704463205
+External otitis,poor sleep,0.001183431952662722
+Esophagitis,feel sick and vomit,0.00639386189258312
+Enteritis,feel sick and vomit,0.010101010101010102
+Asthma,feel sick and vomit,0.0
+Coronary heart disease,feel sick and vomit,0.00641025641025641
+Pneumonia,feel sick and vomit,0.0
+Traumatic brain injury,feel sick and vomit,0.022988505747126436
+Dermatitis,feel sick and vomit,0.0012062726176115801
+External otitis,feel sick and vomit,0.0
+Conjunctivitis,feel sick and vomit,0.0
+Mastitis,feel sick and vomit,0.0020408163265306124
+Esophagitis,syncope,0.0
+Asthma,syncope,0.0
+Coronary heart disease,syncope,0.0038461538461538464
+Rhinitis,syncope,0.0
+Thyroiditis,syncope,0.0
+Traumatic brain injury,syncope,0.0
+Esophagitis,increased stool frequency,0.0025575447570332483
+Enteritis,increased stool frequency,0.008658008658008658
+Esophagitis,blood in the tears,0.0012787723785166241
+Rhinitis,blood in the tears,0.005442176870748299
+Esophagitis,hoarse,0.0025575447570332483
+Enteritis,hoarse,0.0
+Pneumonia,hoarse,0.0
+Rhinitis,hoarse,0.0027210884353741495
+Thyroiditis,hoarse,0.006622516556291391
+Dermatitis,hoarse,0.0
+External otitis,hoarse,0.0
+Conjunctivitis,hoarse,0.0
+Mastitis,hoarse,0.0
+Esophagitis,loss of appetite,0.0012787723785166241
+Enteritis,loss of appetite,0.021645021645021644
+Asthma,loss of appetite,0.0012515644555694619
+Pneumonia,loss of appetite,0.016587677725118485
+Thyroiditis,loss of appetite,0.018211920529801324
+Traumatic brain injury,loss of appetite,0.0016420361247947454
+Dermatitis,loss of appetite,0.0012062726176115801
+Conjunctivitis,loss of appetite,0.001430615164520744
+Mastitis,loss of appetite,0.0020408163265306124
+Esophagitis,dizzy,0.0012787723785166241
+Enteritis,dizzy,0.0
+Asthma,dizzy,0.0025031289111389237
+Coronary heart disease,dizzy,0.021794871794871794
+Pneumonia,dizzy,0.0
+Rhinitis,dizzy,0.005442176870748299
+Thyroiditis,dizzy,0.014900662251655629
+Traumatic brain injury,dizzy,0.0755336617405583
+Dermatitis,dizzy,0.0012062726176115801
+External otitis,dizzy,0.0
+Conjunctivitis,dizzy,0.0
+Mastitis,dizzy,0.0020408163265306124
+Esophagitis,expectoration,0.008951406649616368
+Enteritis,expectoration,0.001443001443001443
+Asthma,expectoration,0.08260325406758448
+Coronary heart disease,expectoration,0.015384615384615385
+Pneumonia,expectoration,0.035545023696682464
+Rhinitis,expectoration,0.013605442176870748
+Thyroiditis,expectoration,0.004966887417218543
+Dermatitis,expectoration,0.0
+External otitis,expectoration,0.002366863905325444
+Conjunctivitis,expectoration,0.0
+Mastitis,expectoration,0.003061224489795918
+Esophagitis,pharynx discomfort,0.03324808184143223
+Enteritis,pharynx discomfort,0.027417027417027416
+Asthma,pharynx discomfort,0.05506883604505632
+Coronary heart disease,pharynx discomfort,0.005128205128205128
+Pneumonia,pharynx discomfort,0.04265402843601896
+Rhinitis,pharynx discomfort,0.06802721088435375
+Thyroiditis,pharynx discomfort,0.059602649006622516
+Dermatitis,pharynx discomfort,0.007237635705669481
+External otitis,pharynx discomfort,0.005917159763313609
+Conjunctivitis,pharynx discomfort,0.011444921316165951
+Mastitis,pharynx discomfort,0.006122448979591836
+Esophagitis,limb numbness,0.0
+Traumatic brain injury,limb numbness,0.0
+Esophagitis,acid reflux,0.10613810741687979
+Enteritis,acid reflux,0.0
+Asthma,acid reflux,0.0012515644555694619
+Coronary heart disease,acid reflux,0.002564102564102564
+Pneumonia,acid reflux,0.001184834123222749
+Thyroiditis,acid reflux,0.0016556291390728477
+Dermatitis,acid reflux,0.0024125452352231603
+Esophagitis,thirst,0.0025575447570332483
+Enteritis,thirst,0.001443001443001443
+Pneumonia,thirst,0.0
+Rhinitis,thirst,0.004081632653061225
+Thyroiditis,thirst,0.0033112582781456954
+Esophagitis,diarrhea,0.0038363171355498722
+Enteritis,diarrhea,0.1746031746031746
+Asthma,diarrhea,0.0
+Coronary heart disease,diarrhea,0.002564102564102564
+Pneumonia,diarrhea,0.002369668246445498
+Rhinitis,diarrhea,0.0
+Traumatic brain injury,diarrhea,0.0
+Dermatitis,diarrhea,0.0
+External otitis,diarrhea,0.0
+Conjunctivitis,diarrhea,0.001430615164520744
+Mastitis,diarrhea,0.0010204081632653062
+Esophagitis,difficulty breathing,0.0012787723785166241
+Enteritis,difficulty breathing,0.0
+Asthma,difficulty breathing,0.028785982478097622
+Coronary heart disease,difficulty breathing,0.023076923076923078
+Pneumonia,difficulty breathing,0.002369668246445498
+Rhinitis,difficulty breathing,0.005442176870748299
+Thyroiditis,difficulty breathing,0.0
+Traumatic brain injury,difficulty breathing,0.0016420361247947454
+Dermatitis,difficulty breathing,0.0
+External otitis,difficulty breathing,0.0
+Conjunctivitis,difficulty breathing,0.0
+Mastitis,difficulty breathing,0.0
+Esophagitis,stuffy nose,0.0038363171355498722
+Enteritis,stuffy nose,0.007215007215007215
+Asthma,stuffy nose,0.026282853566958697
+Coronary heart disease,stuffy nose,0.002564102564102564
+Pneumonia,stuffy nose,0.02843601895734597
+Rhinitis,stuffy nose,0.12380952380952381
+Thyroiditis,stuffy nose,0.009933774834437087
+Traumatic brain injury,stuffy nose,0.0
+Dermatitis,stuffy nose,0.0036188178528347406
+External otitis,stuffy nose,0.004733727810650888
+Conjunctivitis,stuffy nose,0.008583690987124463
+Mastitis,stuffy nose,0.00510204081632653
+Esophagitis,vomiting,0.016624040920716114
+Enteritis,vomiting,0.05627705627705628
+Asthma,vomiting,0.0
+Coronary heart disease,vomiting,0.010256410256410256
+Pneumonia,vomiting,0.011848341232227487
+Rhinitis,vomiting,0.0
+Thyroiditis,vomiting,0.0
+Traumatic brain injury,vomiting,0.03284072249589491
+Dermatitis,vomiting,0.0036188178528347406
+External otitis,vomiting,0.007100591715976331
+Conjunctivitis,vomiting,0.004291845493562232
+Mastitis,vomiting,0.003061224489795918
+Esophagitis,bitter,0.0076726342710997444
+Coronary heart disease,bitter,0.0
+Pneumonia,bitter,0.001184834123222749
+Esophagitis,runny nose,0.0012787723785166241
+Enteritis,runny nose,0.015873015873015872
+Asthma,runny nose,0.028785982478097622
+Coronary heart disease,runny nose,0.0038461538461538464
+Pneumonia,runny nose,0.04739336492890995
+Rhinitis,runny nose,0.13741496598639455
+Thyroiditis,runny nose,0.004966887417218543
+Traumatic brain injury,runny nose,0.0
+Dermatitis,runny nose,0.006031363088057901
+External otitis,runny nose,0.010650887573964497
+Conjunctivitis,runny nose,0.00715307582260372
+Mastitis,runny nose,0.0020408163265306124
+Esophagitis,bloody stools,0.0
+Enteritis,bloody stools,0.001443001443001443
+Pneumonia,bloody stools,0.0
+Esophagitis,bloating,0.028132992327365727
+Enteritis,bloating,0.01875901875901876
+Coronary heart disease,bloating,0.0038461538461538464
+Pneumonia,bloating,0.0
+Thyroiditis,bloating,0.004966887417218543
+Traumatic brain injury,bloating,0.0
+Dermatitis,bloating,0.0024125452352231603
+Conjunctivitis,bloating,0.0
+Mastitis,bloating,0.0010204081632653062
+Esophagitis,fatigue,0.0012787723785166241
+Enteritis,fatigue,0.008658008658008658
+Asthma,fatigue,0.0037546933667083854
+Coronary heart disease,fatigue,0.016666666666666666
+Pneumonia,fatigue,0.0035545023696682463
+Rhinitis,fatigue,0.0013605442176870747
+Thyroiditis,fatigue,0.06788079470198675
+Traumatic brain injury,fatigue,0.003284072249589491
+Dermatitis,fatigue,0.0
+Conjunctivitis,fatigue,0.001430615164520744
+Mastitis,fatigue,0.00816326530612245
+Esophagitis,hard to swallow,0.020460358056265986
+Pneumonia,hard to swallow,0.0
+Rhinitis,hard to swallow,0.0
+Thyroiditis,hard to swallow,0.004966887417218543
+Dermatitis,hard to swallow,0.0
+External otitis,hard to swallow,0.0
+Esophagitis,chest tightness,0.028132992327365727
+Enteritis,chest tightness,0.0
+Asthma,chest tightness,0.0951188986232791
+Coronary heart disease,chest tightness,0.17307692307692307
+Pneumonia,chest tightness,0.015402843601895734
+Rhinitis,chest tightness,0.004081632653061225
+Thyroiditis,chest tightness,0.023178807947019868
+Traumatic brain injury,chest tightness,0.0049261083743842365
+Dermatitis,chest tightness,0.0012062726176115801
+External otitis,chest tightness,0.0
+Mastitis,chest tightness,0.0
+Esophagitis,shortness of breath,0.0076726342710997444
+Enteritis,shortness of breath,0.0
+Asthma,shortness of breath,0.16020025031289112
+Coronary heart disease,shortness of breath,0.035897435897435895
+Pneumonia,shortness of breath,0.030805687203791468
+Rhinitis,shortness of breath,0.004081632653061225
+Dermatitis,shortness of breath,0.0
+Conjunctivitis,shortness of breath,0.0
+Esophagitis,palpitations,0.0038363171355498722
+Enteritis,palpitations,0.002886002886002886
+Asthma,palpitations,0.0037546933667083854
+Coronary heart disease,palpitations,0.05384615384615385
+Pneumonia,palpitations,0.0035545023696682463
+Rhinitis,palpitations,0.0013605442176870747
+Thyroiditis,palpitations,0.06788079470198675
+Traumatic brain injury,palpitations,0.0049261083743842365
+Dermatitis,palpitations,0.0
+External otitis,palpitations,0.0
+Conjunctivitis,palpitations,0.0
+Mastitis,palpitations,0.0
+Esophagitis,fever,0.0
+Enteritis,fever,0.06349206349206349
+Asthma,fever,0.01376720901126408
+Coronary heart disease,fever,0.007692307692307693
+Pneumonia,fever,0.08767772511848342
+Rhinitis,fever,0.0027210884353741495
+Thyroiditis,fever,0.059602649006622516
+Traumatic brain injury,fever,0.006568144499178982
+Dermatitis,fever,0.013268998793727383
+External otitis,fever,0.005917159763313609
+Conjunctivitis,fever,0.017167381974248927
+Mastitis,fever,0.1377551020408163
+Esophagitis,headache,0.0
+Enteritis,headache,0.005772005772005772
+Asthma,headache,0.0012515644555694619
+Coronary heart disease,headache,0.005128205128205128
+Pneumonia,headache,0.0071090047393364926
+Rhinitis,headache,0.014965986394557823
+Thyroiditis,headache,0.019867549668874173
+Traumatic brain injury,headache,0.16912972085385877
+Dermatitis,headache,0.0
+External otitis,headache,0.002366863905325444
+Conjunctivitis,headache,0.005722460658082976
+Mastitis,headache,0.06326530612244897
+Esophagitis,constipation,0.0012787723785166241
+Enteritis,constipation,0.001443001443001443
+Coronary heart disease,constipation,0.0
+Thyroiditis,constipation,0.009933774834437087
+Esophagitis,thin,0.0038363171355498722
+Pneumonia,thin,0.0
+Thyroiditis,thin,0.016556291390728478
+Esophagitis,dizziness,0.005115089514066497
+Enteritis,dizziness,0.004329004329004329
+Asthma,dizziness,0.0025031289111389237
+Coronary heart disease,dizziness,0.03333333333333333
+Pneumonia,dizziness,0.0035545023696682463
+Rhinitis,dizziness,0.004081632653061225
+Thyroiditis,dizziness,0.004966887417218543
+Traumatic brain injury,dizziness,0.12315270935960591
+Dermatitis,dizziness,0.0024125452352231603
+External otitis,dizziness,0.001183431952662722
+Conjunctivitis,dizziness,0.0
+Mastitis,dizziness,0.004081632653061225
+Esophagitis,body aches,0.0
+Enteritis,body aches,0.002886002886002886
+Asthma,body aches,0.0012515644555694619
+Coronary heart disease,body aches,0.0
+Rhinitis,body aches,0.0027210884353741495
+Mastitis,body aches,0.00510204081632653
+Esophagitis,diplopia,0.0
+Asthma,diplopia,0.0
+Rhinitis,diplopia,0.0013605442176870747
+External otitis,diplopia,0.0
+Conjunctivitis,diplopia,0.0
+Esophagitis,hemoptysis,0.0012787723785166241
+Asthma,hemoptysis,0.0
+Coronary heart disease,hemoptysis,0.001282051282051282
+Pneumonia,hemoptysis,0.0
+Rhinitis,hemoptysis,0.0013605442176870747
+Thyroiditis,hemoptysis,0.0
+Esophagitis,burning sensation behind the breastbone,0.058823529411764705
+Asthma,burning sensation behind the breastbone,0.0
+Coronary heart disease,burning sensation behind the breastbone,0.001282051282051282
+Rhinitis,burning sensation behind the breastbone,0.0
+Esophagitis,sweating,0.0
+Enteritis,sweating,0.001443001443001443
+Asthma,sweating,0.0012515644555694619
+Coronary heart disease,sweating,0.015384615384615385
+Pneumonia,sweating,0.0
+Rhinitis,sweating,0.0027210884353741495
+Thyroiditis,sweating,0.03642384105960265
+Conjunctivitis,sweating,0.0
+Esophagitis,hiccup,0.01918158567774936
+Coronary heart disease,hiccup,0.001282051282051282
+Thyroiditis,hiccup,0.0016556291390728477
+Esophagitis,poor spirits,0.0025575447570332483
+Enteritis,poor spirits,0.002886002886002886
+Asthma,poor spirits,0.0012515644555694619
+Pneumonia,poor spirits,0.005924170616113744
+Thyroiditis,poor spirits,0.004966887417218543
+Traumatic brain injury,poor spirits,0.008210180623973728
+Esophagitis,frequent urination,0.0012787723785166241
+Enteritis,frequent urination,0.001443001443001443
+Coronary heart disease,frequent urination,0.001282051282051282
+Pneumonia,frequent urination,0.0
+Rhinitis,frequent urination,0.0
+Thyroiditis,frequent urination,0.0033112582781456954
+Dermatitis,frequent urination,0.0
+Mastitis,frequent urination,0.0
+Esophagitis,black stool,0.0
+Enteritis,black stool,0.0
+Coronary heart disease,black stool,0.001282051282051282
+Pneumonia,black stool,0.0
+Esophagitis,consciousness disorder,0.0
+Enteritis,consciousness disorder,0.0
+Asthma,consciousness disorder,0.0
+Coronary heart disease,consciousness disorder,0.0
+Pneumonia,consciousness disorder,0.002369668246445498
+Rhinitis,consciousness disorder,0.0
+Thyroiditis,consciousness disorder,0.0016556291390728477
+Traumatic brain injury,consciousness disorder,0.016420361247947456
+Dermatitis,consciousness disorder,0.0
+Mastitis,consciousness disorder,0.0
+Esophagitis,thin white moss,0.0038363171355498722
+Rhinitis,thin white moss,0.0027210884353741495
+Mastitis,thin white moss,0.011224489795918367
+Esophagitis,edema,0.0012787723785166241
+Enteritis,edema,0.001443001443001443
+Asthma,edema,0.0
+Coronary heart disease,edema,0.00641025641025641
+Rhinitis,edema,0.0027210884353741495
+Thyroiditis,edema,0.004966887417218543
+Dermatitis,edema,0.0024125452352231603
+Conjunctivitis,edema,0.001430615164520744
+Esophagitis,anorexia,0.0012787723785166241
+Enteritis,anorexia,0.004329004329004329
+Asthma,anorexia,0.0
+Coronary heart disease,anorexia,0.001282051282051282
+Pneumonia,anorexia,0.002369668246445498
+Thyroiditis,anorexia,0.008278145695364239
+Traumatic brain injury,anorexia,0.0016420361247947454
+Esophagitis,cough,0.01918158567774936
+Enteritis,cough,0.021645021645021644
+Asthma,cough,0.13892365456821026
+Coronary heart disease,cough,0.021794871794871794
+Pneumonia,cough,0.15995260663507108
+Rhinitis,cough,0.06802721088435375
+Thyroiditis,cough,0.03145695364238411
+Traumatic brain injury,cough,0.0016420361247947454
+Dermatitis,cough,0.010856453558504222
+External otitis,cough,0.010650887573964497
+Conjunctivitis,cough,0.011444921316165951
+Mastitis,cough,0.004081632653061225
+Esophagitis,stomach ache,0.029411764705882353
+Enteritis,stomach ache,0.07215007215007214
+Asthma,stomach ache,0.0012515644555694619
+Coronary heart disease,stomach ache,0.005128205128205128
+Pneumonia,stomach ache,0.004739336492890996
+Rhinitis,stomach ache,0.0
+Thyroiditis,stomach ache,0.004966887417218543
+Traumatic brain injury,stomach ache,0.016420361247947456
+Dermatitis,stomach ache,0.0024125452352231603
+External otitis,stomach ache,0.002366863905325444
+Conjunctivitis,stomach ache,0.001430615164520744
+Mastitis,stomach ache,0.006122448979591836
+Esophagitis,pain behind the breastbone,0.034526854219948847
+Enteritis,pain behind the breastbone,0.0
+Asthma,pain behind the breastbone,0.0025031289111389237
+Coronary heart disease,pain behind the breastbone,0.08076923076923077
+Pneumonia,pain behind the breastbone,0.005924170616113744
+Rhinitis,pain behind the breastbone,0.0027210884353741495
+Thyroiditis,pain behind the breastbone,0.0033112582781456954
+Traumatic brain injury,pain behind the breastbone,0.0
+Dermatitis,pain behind the breastbone,0.0
+Mastitis,pain behind the breastbone,0.0
+Esophagitis,sleep disorder,0.0012787723785166241
+Enteritis,sleep disorder,0.001443001443001443
+Coronary heart disease,sleep disorder,0.0
+Pneumonia,sleep disorder,0.0
+Rhinitis,sleep disorder,0.0013605442176870747
+Thyroiditis,sleep disorder,0.019867549668874173
+Traumatic brain injury,sleep disorder,0.0016420361247947454
+External otitis,sleep disorder,0.001183431952662722
+Esophagitis,hematemesis,0.0
+Enteritis,hematemesis,0.0
+Traumatic brain injury,hematemesis,0.0
+Esophagitis,nausea,0.03580562659846547
+Enteritis,nausea,0.03463203463203463
+Asthma,nausea,0.0
+Coronary heart disease,nausea,0.019230769230769232
+Pneumonia,nausea,0.0035545023696682463
+Rhinitis,nausea,0.0
+Thyroiditis,nausea,0.0
+Traumatic brain injury,nausea,0.0755336617405583
+Dermatitis,nausea,0.0024125452352231603
+External otitis,nausea,0.005917159763313609
+Conjunctivitis,nausea,0.001430615164520744
+Mastitis,nausea,0.007142857142857143
+Esophagitis,twitch,0.0
+Enteritis,twitch,0.0
+Asthma,twitch,0.0
+Coronary heart disease,twitch,0.0
+Pneumonia,twitch,0.0
+Traumatic brain injury,twitch,0.0
+Dermatitis,twitch,0.0
+Conjunctivitis,twitch,0.0
+Mastitis,twitch,0.0
+Esophagitis,hiccough,0.020460358056265986
+Enteritis,hiccough,0.001443001443001443
+Coronary heart disease,hiccough,0.0
+Thyroiditis,hiccough,0.004966887417218543
+Esophagitis,chest tightness and shortness of breath,0.005115089514066497
+Enteritis,chest tightness and shortness of breath,0.0
+Asthma,chest tightness and shortness of breath,0.04881101376720901
+Coronary heart disease,chest tightness and shortness of breath,0.03205128205128205
+Pneumonia,chest tightness and shortness of breath,0.0071090047393364926
+Rhinitis,chest tightness and shortness of breath,0.0013605442176870747
+Thyroiditis,chest tightness and shortness of breath,0.014900662251655629
+Traumatic brain injury,chest tightness and shortness of breath,0.0
+Dermatitis,chest tightness and shortness of breath,0.0
+External otitis,chest tightness and shortness of breath,0.0
+Conjunctivitis,chest tightness and shortness of breath,0.0
+Mastitis,chest tightness and shortness of breath,0.0
+Enteritis,rash,0.0
+Asthma,rash,0.0025031289111389237
+Pneumonia,rash,0.0
+Rhinitis,rash,0.0
+Thyroiditis,rash,0.0016556291390728477
+Dermatitis,rash,0.14837153196622438
+External otitis,rash,0.0
+Conjunctivitis,rash,0.0
+Mastitis,rash,0.0
+Enteritis,headache and dizziness,0.0
+Rhinitis,headache and dizziness,0.0013605442176870747
+Traumatic brain injury,headache and dizziness,0.052545155993431854
+Enteritis,oliguria,0.001443001443001443
+Pneumonia,oliguria,0.0035545023696682463
+Enteritis,decreased urine output,0.027417027417027416
+Enteritis,night sweats,0.0
+Asthma,night sweats,0.0
+Coronary heart disease,night sweats,0.001282051282051282
+Pneumonia,night sweats,0.002369668246445498
+Rhinitis,night sweats,0.0
+Thyroiditis,night sweats,0.0
+Enteritis,cry,0.0
+Pneumonia,cry,0.0
+Rhinitis,cry,0.0013605442176870747
+Thyroiditis,cry,0.0016556291390728477
+Traumatic brain injury,cry,0.021346469622331693
+Dermatitis,cry,0.0
+External otitis,cry,0.001183431952662722
+Conjunctivitis,cry,0.09298998569384835
+Enteritis,first degree swelling of bilateral tonsils,0.002886002886002886
+Asthma,first degree swelling of bilateral tonsils,0.006257822277847309
+Pneumonia,first degree swelling of bilateral tonsils,0.005924170616113744
+Rhinitis,first degree swelling of bilateral tonsils,0.006802721088435374
+Enteritis,chills,0.001443001443001443
+Pneumonia,chills,0.0035545023696682463
+Rhinitis,chills,0.0
+Dermatitis,chills,0.0
+Conjunctivitis,chills,0.0
+Mastitis,chills,0.02142857142857143
+Enteritis,sneeze,0.002886002886002886
+Asthma,sneeze,0.016270337922403004
+Coronary heart disease,sneeze,0.001282051282051282
+Pneumonia,sneeze,0.0071090047393364926
+Rhinitis,sneeze,0.08707482993197278
+Thyroiditis,sneeze,0.0016556291390728477
+Dermatitis,sneeze,0.0024125452352231603
+External otitis,sneeze,0.001183431952662722
+Conjunctivitis,sneeze,0.0
+Enteritis,chills and fever,0.001443001443001443
+Asthma,chills and fever,0.0012515644555694619
+Coronary heart disease,chills and fever,0.001282051282051282
+Pneumonia,chills and fever,0.002369668246445498
+Rhinitis,chills and fever,0.0
+Thyroiditis,chills and fever,0.0
+External otitis,chills and fever,0.0
+Mastitis,chills and fever,0.015306122448979591
+Enteritis,lumbago,0.0
+Pneumonia,lumbago,0.0
+Mastitis,lumbago,0.0020408163265306124
+Enteritis,defecate,0.021645021645021644
+Pneumonia,defecate,0.002369668246445498
+Dermatitis,defecate,0.0
+Enteritis,mucus pus and blood in the stool,0.0
+Enteritis,waist pain,0.0
+Coronary heart disease,waist pain,0.002564102564102564
+Rhinitis,waist pain,0.0
+Traumatic brain injury,waist pain,0.0016420361247947454
+Dermatitis,waist pain,0.0012062726176115801
+Mastitis,waist pain,0.0010204081632653062
+Enteritis,cyanosis,0.0
+Asthma,cyanosis,0.0
+Pneumonia,cyanosis,0.0
+Rhinitis,cyanosis,0.0
+Dermatitis,cyanosis,0.0
+Conjunctivitis,cyanosis,0.0
+Enteritis,suppuration,0.0
+Asthma,suppuration,0.0
+Pneumonia,suppuration,0.0
+Rhinitis,suppuration,0.0
+Dermatitis,suppuration,0.0024125452352231603
+Mastitis,suppuration,0.0
+Enteritis,backache,0.0
+Coronary heart disease,backache,0.0038461538461538464
+Rhinitis,backache,0.0013605442176870747
+Thyroiditis,backache,0.0016556291390728477
+Enteritis,tensile and heavy,0.0
+Enteritis,abdominal pain and diarrhea,0.012987012987012988
+Dermatitis,abdominal pain and diarrhea,0.0
+Mastitis,abdominal pain and diarrhea,0.0
+Enteritis,urgency,0.0
+Coronary heart disease,urgency,0.001282051282051282
+Pneumonia,urgency,0.0
+Dermatitis,urgency,0.0
+Mastitis,urgency,0.0
+Enteritis,painful urination,0.0
+Coronary heart disease,painful urination,0.0
+Pneumonia,painful urination,0.0
+Rhinitis,painful urination,0.0
+Dermatitis,painful urination,0.0
+Mastitis,painful urination,0.0
+Asthma,nasal mucosal congestion,0.0012515644555694619
+Rhinitis,nasal mucosal congestion,0.013605442176870748
+External otitis,nasal mucosal congestion,0.001183431952662722
+Asthma,inspiratory tri-concave sign,0.0
+Pneumonia,inspiratory tri-concave sign,0.0
+Rhinitis,inspiratory tri-concave sign,0.0
+Conjunctivitis,inspiratory tri-concave sign,0.0
+Asthma,itching,0.0025031289111389237
+Rhinitis,itching,0.0
+Dermatitis,itching,0.16284680337756333
+Asthma,nasal congestion,0.0012515644555694619
+Pneumonia,nasal congestion,0.001184834123222749
+Rhinitis,nasal congestion,0.005442176870748299
+Asthma,incontinence,0.0
+Traumatic brain injury,incontinence,0.0
+Mastitis,incontinence,0.0
+Asthma,joint pain,0.0012515644555694619
+Dermatitis,joint pain,0.0
+Asthma,vertigo,0.0
+Coronary heart disease,vertigo,0.0
+Rhinitis,vertigo,0.0
+Traumatic brain injury,vertigo,0.006568144499178982
+Dermatitis,vertigo,0.0
+External otitis,vertigo,0.002366863905325444
+Mastitis,vertigo,0.0010204081632653062
+Coronary heart disease,pain in front of neck,0.001282051282051282
+Thyroiditis,pain in front of neck,0.1076158940397351
+Traumatic brain injury,pain in front of neck,0.0049261083743842365
+Coronary heart disease,radiating pain,0.0
+Thyroiditis,radiating pain,0.0
+Coronary heart disease,hematuria,0.0
+Dermatitis,hematuria,0.0
+Coronary heart disease,hazy,0.0038461538461538464
+Traumatic brain injury,hazy,0.0
+Conjunctivitis,hazy,0.0
+Coronary heart disease,tinnitus,0.001282051282051282
+Rhinitis,tinnitus,0.0013605442176870747
+Thyroiditis,tinnitus,0.0016556291390728477
+Traumatic brain injury,tinnitus,0.0016420361247947454
+Dermatitis,tinnitus,0.0
+External otitis,tinnitus,0.0757396449704142
+Mastitis,tinnitus,0.0
+Pneumonia,hand tremor,0.0
+Thyroiditis,hand tremor,0.0
+Pneumonia,earache,0.001184834123222749
+Rhinitis,earache,0.0013605442176870747
+Traumatic brain injury,earache,0.0016420361247947454
+Dermatitis,earache,0.0
+External otitis,earache,0.1952662721893491
+Rhinitis,nose bleeding,0.013605442176870748
+Traumatic brain injury,nose bleeding,0.0016420361247947454
+External otitis,nose bleeding,0.001183431952662722
+Rhinitis,itchy eyes,0.006802721088435374
+Dermatitis,itchy eyes,0.0
+External otitis,itchy eyes,0.001183431952662722
+Conjunctivitis,itchy eyes,0.02575107296137339
+Rhinitis,hearing loss,0.0013605442176870747
+Traumatic brain injury,hearing loss,0.0
+External otitis,hearing loss,0.08165680473372781
+Rhinitis,snore,0.010884353741496598
+Dermatitis,snore,0.0012062726176115801
+Rhinitis,swelling of both nasal mucosa,0.009523809523809525
+External otitis,swelling of both nasal mucosa,0.002366863905325444
+Rhinitis,ulcer,0.0
+Dermatitis,ulcer,0.0
+Thyroiditis,right earache,0.0033112582781456954
+External otitis,right earache,0.10177514792899409
+Thyroiditis,afraid of cold,0.014900662251655629
+Mastitis,afraid of cold,0.0010204081632653062
+Thyroiditis,shaking hands,0.014900662251655629
+Thyroiditis,proptosis,0.0
+Thyroiditis,afraid of heat,0.009933774834437087
+Conjunctivitis,afraid of heat,0.0
+Thyroiditis,vision loss,0.0016556291390728477
+Conjunctivitis,vision loss,0.004291845493562232
+Thyroiditis,mild thyroid enlargement,0.041390728476821195
+Thyroiditis,eye swelling,0.004966887417218543
+Conjunctivitis,eye swelling,0.004291845493562232
+Traumatic brain injury,redness,0.0
+Dermatitis,redness,0.0012062726176115801
+External otitis,redness,0.004733727810650888
+Conjunctivitis,redness,0.001430615164520744
+Mastitis,redness,0.00510204081632653
+Traumatic brain injury,unconsciousness,0.003284072249589491
+Traumatic brain injury,head trauma pain,0.08210180623973727
+Traumatic brain injury,poor physical activity,0.0
+Dermatitis,breast tenderness,0.0
+Mastitis,breast tenderness,0.10816326530612246
+Dermatitis,eye pain,0.0
+Conjunctivitis,eye pain,0.00715307582260372
+Dermatitis,itchy and uncomfortable eyes,0.0012062726176115801
+Conjunctivitis,itchy and uncomfortable eyes,0.1072961373390558
+Dermatitis,congestion of skin and mucous membranes,0.008443908323281062
+Dermatitis,jealous,0.0024125452352231603
+Conjunctivitis,jealous,0.13590844062947066
+Dermatitis,dysmenorrhea,0.0
+Dermatitis,photophobia,0.0
+Conjunctivitis,photophobia,0.0715307582260372
+Dermatitis,papule,0.0036188178528347406
+External otitis,ear itching,0.09940828402366864
