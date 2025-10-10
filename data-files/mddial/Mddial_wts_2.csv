@@ -1,0 +1,167 @@
+disease,symptom,weight
+asthma,Cough,0.373
+asthma,Chest tightness and shortness of breath,0.187
+asthma,Fever,0.16
+asthma,Difficulty breathing,0.053
+asthma,Shortness of breath,0.053
+asthma,Itching,0.053
+asthma,Chest tightness,0.04
+traumatic brain injury,Headache,0.2
+traumatic brain injury,Vomiting,0.173
+traumatic brain injury,Dizziness,0.08
+traumatic brain injury,Cry,0.067
+traumatic brain injury,Head trauma pain,0.053
+traumatic brain injury,Cough,0.04
+traumatic brain injury,Syncope,0.04
+traumatic brain injury,Dizzy,0.04
+traumatic brain injury,Fever,0.027
+traumatic brain injury,Redness,0.027
+traumatic brain injury,Fatigue,0.027
+traumatic brain injury,Chest tightness,0.013
+traumatic brain injury,Hearing loss,0.013
+traumatic brain injury,Unconsciousness,0.013
+traumatic brain injury,Incontinence,0.013
+traumatic brain injury,Stomach ache,0.013
+traumatic brain injury,Vertigo,0.013
+traumatic brain injury,Nausea,0.013
+conjunctivitis,Fever,0.187
+conjunctivitis,Cough,0.147
+conjunctivitis,Eye pain,0.107
+conjunctivitis,Eye swelling,0.107
+conjunctivitis,Redness,0.093
+conjunctivitis,Cry,0.067
+conjunctivitis,Pharynx discomfort,0.053
+conjunctivitis,Itchy and uncomfortable eyes,0.053
+conjunctivitis,Itchy eyes,0.053
+conjunctivitis,Stuffy nose,0.027
+conjunctivitis,Runny nose,0.013
+dermatitis,Rash,0.347
+dermatitis,Itching,0.187
+dermatitis,Ulcer,0.08
+dermatitis,Fever,0.067
+dermatitis,Cough,0.04
+dermatitis,Edema,0.04
+dermatitis,Redness,0.04
+dermatitis,Runny nose,0.027
+dermatitis,Acid reflux,0.013
+dermatitis,Papule,0.013
+dermatitis,Itchy and uncomfortable eyes,0.013
+dermatitis,Headache,0.013
+dermatitis,Stuffy nose,0.013
+dermatitis,Fatigue,0.013
+esophagitis,Vomiting,0.093
+esophagitis,Cough,0.08
+esophagitis,Nausea,0.067
+esophagitis,Burning sensation behind the breastbone,0.067
+esophagitis,Pharynx discomfort,0.053
+esophagitis,Stomach ache,0.053
+esophagitis,Shortness of breath,0.04
+esophagitis,Pain behind the breastbone,0.027
+esophagitis,Hard to swallow,0.027
+esophagitis,Acid reflux,0.013
+enteritis,Fever,0.44
+enteritis,Diarrhea,0.387
+enteritis,Vomiting,0.32
+enteritis,Nausea,0.213
+enteritis,Stomach ache,0.107
+enteritis,Headache,0.107
+enteritis,Bloating,0.08
+enteritis,Abdominal pain and diarrhea,0.08
+enteritis,Cry,0.053
+enteritis,Dizzy,0.04
+enteritis,Body aches,0.04
+enteritis,Cough,0.04
+enteritis,Rash,0.04
+enteritis,Constipation,0.027
+enteritis,Chills,0.027
+enteritis,Black stool,0.027
+enteritis,Acid reflux,0.013
+enteritis,Runny nose,0.013
+enteritis,Defecate,0.013
+enteritis,Sweating,0.013
+enteritis,Fatigue,0.013
+enteritis,Frequent urination,0.013
+enteritis,Dizziness,0.013
+enteritis,Thirst,0.013
+enteritis,Feel sick and vomit,0.013
+coronary heart disease,Shortness of breath,0.107
+coronary heart disease,Palpitations,0.067
+coronary heart disease,Headache,0.053
+coronary heart disease,Dizziness,0.053
+coronary heart disease,Dizzy,0.04
+coronary heart disease,Chest tightness,0.027
+coronary heart disease,Constipation,0.027
+coronary heart disease,Bloating,0.013
+coronary heart disease,Backache,0.013
+coronary heart disease,Cough,0.013
+coronary heart disease,Radiating pain,0.013
+coronary heart disease,Chest tightness and shortness of breath,0.013
+coronary heart disease,Nausea,0.013
+coronary heart disease,Sweating,0.013
+coronary heart disease,Fatigue,0.013
+coronary heart disease,Diarrhea,0.013
+mastitis,Fever,0.16
+mastitis,Redness,0.08
+mastitis,Breast tenderness,0.04
+mastitis,Headache,0.027
+mastitis,Nausea,0.027
+mastitis,Dizziness,0.027
+mastitis,Pain behind the breastbone,0.027
+mastitis,Diarrhea,0.013
+mastitis,Dizzy,0.013
+mastitis,Chills,0.013
+mastitis,Loss of appetite,0.013
+External otitis,Earache,0.188
+External otitis,Ear itching,0.125
+External otitis,Redness,0.062
+External otitis,Fever,0.062
+External otitis,Vertigo,0.062
+External otitis,Vomiting,0.062
+External otitis,Nausea,0.062
+External otitis,Right earache,0.062
+pneumonia,Cough,0.4
+pneumonia,Fever,0.213
+pneumonia,Vomiting,0.067
+pneumonia,Difficulty breathing,0.04
+pneumonia,Shortness of breath,0.04
+pneumonia,Chills,0.027
+pneumonia,Pain behind the breastbone,0.013
+pneumonia,Chest tightness and shortness of breath,0.013
+pneumonia,Fatigue,0.013
+rhinitis,Cough,0.213
+rhinitis,Runny nose,0.173
+rhinitis,Fever,0.16
+rhinitis,Headache,0.12
+rhinitis,Nasal congestion,0.093
+rhinitis,Sneeze,0.067
+rhinitis,Itching,0.053
+rhinitis,Stuffy nose,0.053
+rhinitis,Fatigue,0.04
+rhinitis,Earache,0.04
+rhinitis,Itchy eyes,0.027
+rhinitis,Nasal mucosal congestion,0.027
+rhinitis,Nausea,0.027
+rhinitis,Night sweats,0.027
+rhinitis,Edema,0.027
+rhinitis,Dizzy,0.027
+rhinitis,Body aches,0.013
+rhinitis,Ulcer,0.013
+rhinitis,Vomiting,0.013
+rhinitis,Diarrhea,0.013
+rhinitis,Rash,0.013
+rhinitis,Dizziness,0.013
+thyroiditis,Thin,0.387
+thyroiditis,Fever,0.16
+thyroiditis,Fatigue,0.093
+thyroiditis,Palpitations,0.093
+thyroiditis,Sweating,0.053
+thyroiditis,Headache,0.053
+thyroiditis,Edema,0.04
+thyroiditis,Cough,0.027
+thyroiditis,Rash,0.027
+thyroiditis,Constipation,0.027
+thyroiditis,Bloating,0.027
+thyroiditis,Dizziness,0.013
+thyroiditis,Backache,0.013
+thyroiditis,Dizzy,0.013
+thyroiditis,Proptosis,0.013
