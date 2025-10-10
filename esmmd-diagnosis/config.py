@@ -1,27 +1,22 @@
-# JSON data files
-DICT_TRAIN_PATH = f"/home/Byomakesh/ours-diagnosis/esmmd-diagnosis/data-files/ESMMD-updated-files/dict_train_esmmd.json"
-DICT_TEST_PATH = f"/home/Byomakesh/ours-diagnosis/esmmd-diagnosis/data-files/ESMMD-updated-files/dict_test_esmmd.json"
-SYMPTOM_COOCCURRENCE_PATH = "/home/Byomakesh/ours-diagnosis/esmmd-diagnosis/data-files/ESMMD-updated-files/symptom_co-occurence_esmmd.json"
-DISEASE_SYMPTOM_PATH = f"/home/Byomakesh/ours-diagnosis/esmmd-diagnosis/data-files/ESMMD-updated-files/disease_symptom_esmmd.json"
+# For these files only sample file is provided at "/data-files/esmmd/" is provided, update the path according to the original file.
+DICT_TRAIN_PATH = "/path-to-file/dict_train_esmmd.json"
+DICT_TEST_PATH = "/path-to-file/dict_test_esmmd.json"
+DISEASE_SYMPTOM_PATH = "/path-to-file/disease_symptom_esmmd.json"
 
-# CSV files
-P_D_GIVEN_S_PATH = f"/home/Byomakesh/ours-diagnosis/esmmd-diagnosis/data-files/ESMMD-updated-files/Reqd_wts_esmmd_2.csv"
+#For these files the entire file is available at /data-files/esmmd/
+SYMPTOM_COOCCURRENCE_PATH = "/data-files/esmmd/symptom_co-occurence_esmmd.json" 
+P_D_GIVEN_S_PATH = f"/data-files/esmmd/Reqd_wts_esmmd_2.csv"
 
-# Image paths
-TRAIN_IMAGE_DIR = f"/home/Byomakesh/ours-diagnosis/esmmd-diagnosis/data-files/all_images/train/"
-TEST_IMAGE_DIR = f"/home/Byomakesh/ours-diagnosis/esmmd-diagnosis/data-files/all_images/test/"
+# These are the image files download the files and keep all the train images in a single folder and test in another single folder
+TRAIN_IMAGE_DIR = f"/image-data-path/data-files/all_images/train/"
+TEST_IMAGE_DIR = f"/image-data/all_images/test/"
 
-IMAGE_EMBEDDINGS_PATH = f"/home/Byomakesh/ours-diagnosis/esmmd-diagnosis/data-files/ESMMD-updated-files/vgg19_image_embeddings.npz"
+# Download this file from https://drive.google.com/file/d/1lwfErF8Q0O7Gpyo_U7feCicYNG0m0KLc/view?usp=sharing and provide the path here
+IMAGE_EMBEDDINGS_PATH = f"/embedding-path/vgg19_image_embeddings.npz"
 
-# Output paths
-RESULTS_OUTPUT_PATH = f"/home/Byomakesh/ours-diagnosis/esmmd-diagnosis/result_esmmd_mod1.csv"
-GRAPH_EDGE_DIR = "/home/Byomakesh/ours-diagnosis/esmmd-diagnosis/graph-edges/"
-
-# ============================================
-# MODEL PARAMETERS
-# ============================================
-
-# CLIP model
+#Update with the output paths
+RESULTS_OUTPUT_PATH = f"/output-path/result_esmmd_mod1.csv"
+GRAPH_EDGE_DIR = "/output-path/graph-edges/"
 CLIP_MODEL_NAME = "ViT-B/32"
 
 # PageRank parameters
