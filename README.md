@@ -7,10 +7,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Datasets](#datasets)
-- [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Citation](#citation)
-- [License](#license)
 
 ---
 
