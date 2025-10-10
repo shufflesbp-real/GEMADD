@@ -29,7 +29,6 @@ class DiagnosisMetrics:
     def calculate_hit_at_k(self, k):
         if not self.results:
             return 0.0
-        
         hits = 0
         for result in self.results:
             gt = result['ground_truth']
@@ -141,20 +140,14 @@ class DiagnosisMetrics:
     
     def print_metrics(self, elapsed_time=None):
         metrics = self.get_all_metrics()
-        print("--- Evaluation Metrics ---")
         print(f"Total Dialogues Processed: {metrics['total_dialogues']}")
-        print("-"*28)
-        
         print("\nDiagnosis Accuracy:")
         print(f"Diagnosis Success Rate (Hit@1): {metrics['hit_at_1']:.4f}")
         print(f"Hit@3: {metrics['hit_at_3']:.4f}")
         print(f"Hit@5: {metrics['hit_at_5']:.4f}")
         print(f"Mean Reciprocal Rank (MRR):     {metrics['mrr']:.4f}")
-        
         print("\nDialogue Efficiency:")
         print(f"Average Dialogue Length: {metrics['avg_dialogue_length']:.2f} turns")
-        
         print("\nSymptom Matching Rates:")
         print(f"Precision (vs. KG Symptoms):      {metrics['symptom_precision_vs_kg']:.4f}")
         print(f"Recall (vs. Patient 'Yes' Symp):  {metrics['symptom_recall_vs_patient_yes']:.4f}")        
-        print("="*60 + "\n")
