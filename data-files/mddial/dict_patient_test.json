@@ -1,0 +1,3798 @@
+{
+  "1": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "burning sensation behind the breastbone",
+      "stomach ache"
+    ],
+    "neg-symptoms": [
+      "nausea",
+      "acid reflux"
+    ],
+    "patient_reported_symptoms": [
+      "burning sensation behind the breastbone"
+    ]
+  },
+  "2": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "chest tightness",
+      "expectoration",
+      "bloating",
+      "acid reflux",
+      "pain behind the breastbone",
+      "shortness of breath"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "chest tightness"
+    ]
+  },
+  "3": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "nausea",
+      "diarrhea"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "nausea",
+      "diarrhea"
+    ]
+  },
+  "4": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "chest tightness",
+      "pain behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "fever",
+      "cough"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness"
+    ]
+  },
+  "5": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "chest tightness",
+      "pain behind the breastbone",
+      "diarrhea",
+      "acid reflux"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "chest tightness"
+    ]
+  },
+  "6": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "hard to swallow",
+      "chest tightness",
+      "pain behind the breastbone",
+      "feel sick and vomit"
+    ],
+    "neg-symptoms": [
+      "cough",
+      "stomach ache",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "hard to swallow"
+    ]
+  },
+  "7": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "chest tightness",
+      "expectoration",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "fever",
+      "nausea"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "expectoration"
+    ]
+  },
+  "8": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "burning sensation behind the breastbone",
+      "bloating"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "bloating",
+      "burning sensation behind the breastbone"
+    ]
+  },
+  "9": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "acid reflux",
+      "pain behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "bloating"
+    ],
+    "patient_reported_symptoms": [
+      "acid reflux"
+    ]
+  },
+  "10": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "burning sensation behind the breastbone",
+      "acid reflux"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "black stool",
+      "hematemesis"
+    ],
+    "patient_reported_symptoms": [
+      "acid reflux",
+      "burning sensation behind the breastbone"
+    ]
+  },
+  "11": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "acid reflux",
+      "cough",
+      "pain behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "nausea",
+      "fever",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "acid reflux",
+      "cough"
+    ]
+  },
+  "12": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "acid reflux",
+      "pharynx discomfort"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "diarrhea",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "acid reflux"
+    ]
+  },
+  "13": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "acid reflux",
+      "nausea"
+    ],
+    "neg-symptoms": [
+      "bloating",
+      "diarrhea",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "acid reflux"
+    ]
+  },
+  "14": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "bitter",
+      "thirst"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "thirst",
+      "bitter"
+    ]
+  },
+  "15": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "cough"
+    ],
+    "neg-symptoms": [
+      "nausea",
+      "hard to swallow"
+    ],
+    "patient_reported_symptoms": [
+      "cough",
+      "pharynx discomfort"
+    ]
+  },
+  "16": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "pain behind the breastbone",
+      "chest tightness",
+      "burning sensation behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "hard to swallow",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "pain behind the breastbone"
+    ]
+  },
+  "17": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "acid reflux",
+      "burning sensation behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "hard to swallow",
+      "fatigue",
+      "stomach ache",
+      "thin"
+    ],
+    "patient_reported_symptoms": [
+      "acid reflux"
+    ]
+  },
+  "18": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "hiccup",
+      "chest tightness",
+      "bloating",
+      "pain behind the breastbone",
+      "acid reflux",
+      "burning sensation behind the breastbone"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "hiccup"
+    ]
+  },
+  "19": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "acid reflux",
+      "pharynx discomfort"
+    ],
+    "neg-symptoms": [
+      "hard to swallow",
+      "expectoration",
+      "cough"
+    ],
+    "patient_reported_symptoms": [
+      "acid reflux"
+    ]
+  },
+  "20": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "pain behind the breastbone",
+      "hard to swallow"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "hematemesis",
+      "nausea",
+      "black stool"
+    ],
+    "patient_reported_symptoms": [
+      "pain behind the breastbone"
+    ]
+  },
+  "21": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "hemoptysis"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "hard to swallow",
+      "hoarse",
+      "palpitations"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort",
+      "hemoptysis"
+    ]
+  },
+  "22": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "burning sensation behind the breastbone",
+      "acid reflux",
+      "pharynx discomfort"
+    ],
+    "neg-symptoms": [
+      "hard to swallow"
+    ],
+    "patient_reported_symptoms": [
+      "acid reflux",
+      "burning sensation behind the breastbone"
+    ]
+  },
+  "23": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "burning sensation behind the breastbone",
+      "pharynx discomfort"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "nausea",
+      "bloating",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort",
+      "burning sensation behind the breastbone"
+    ]
+  },
+  "24": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "chest tightness",
+      "pharynx discomfort",
+      "expectoration"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "acid reflux"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness"
+    ]
+  },
+  "25": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "nausea"
+    ],
+    "neg-symptoms": [
+      "palpitations",
+      "hard to swallow",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort"
+    ]
+  },
+  "26": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "vomiting",
+      "diarrhea"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "bloody stools"
+    ],
+    "patient_reported_symptoms": [
+      "vomiting"
+    ]
+  },
+  "27": {
+    "ground_truth": "Esophagitis",
+    "pos-symptoms": [
+      "chest tightness",
+      "burning sensation behind the breastbone",
+      "pain behind the breastbone",
+      "palpitations",
+      "acid reflux"
+    ],
+    "neg-symptoms": [
+      "black stool"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "burning sensation behind the breastbone"
+    ]
+  },
+  "28": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "fever",
+      "diarrhea"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "fever",
+      "diarrhea"
+    ]
+  },
+  "29": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "vomiting",
+      "diarrhea",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "cough",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "sneeze",
+      "chills",
+      "shortness of breath",
+      "runny nose",
+      "twitch",
+      "rash"
+    ],
+    "patient_reported_symptoms": [
+      "vomiting"
+    ]
+  },
+  "30": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "cough",
+      "decreased urine output",
+      "thirst",
+      "vomiting",
+      "loss of appetite",
+      "diarrhea"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "tensile and heavy",
+      "mucus pus and blood in the stool",
+      "fever",
+      "twitch"
+    ],
+    "patient_reported_symptoms": [
+      "cough",
+      "decreased urine output"
+    ]
+  },
+  "31": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "fever",
+      "diarrhea"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "cough"
+    ],
+    "patient_reported_symptoms": [
+      "fever",
+      "diarrhea"
+    ]
+  },
+  "32": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "diarrhea",
+      "stomach ache"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "vomiting",
+      "fear of cold"
+    ],
+    "patient_reported_symptoms": [
+      "diarrhea"
+    ]
+  },
+  "33": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "fever",
+      "stomach ache"
+    ],
+    "neg-symptoms": [
+      "bloody stools",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath"
+    ],
+    "patient_reported_symptoms": [
+      "fever"
+    ]
+  },
+  "34": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "vomiting",
+      "stomach ache",
+      "diarrhea",
+      "fever"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "stomach ache",
+      "vomiting"
+    ]
+  },
+  "35": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "stomach ache",
+      "diarrhea"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "nausea",
+      "chest tightness"
+    ],
+    "patient_reported_symptoms": [
+      "stomach ache",
+      "diarrhea"
+    ]
+  },
+  "36": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "vomiting",
+      "cough",
+      "hoarse",
+      "diarrhea",
+      "decreased urine output"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "thirst",
+      "twitch"
+    ],
+    "patient_reported_symptoms": [
+      "vomiting"
+    ]
+  },
+  "37": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "fever",
+      "diarrhea"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "fever",
+      "diarrhea"
+    ]
+  },
+  "38": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "stomach ache",
+      "defecate"
+    ],
+    "neg-symptoms": [
+      "night sweats",
+      "fever",
+      "vomiting"
+    ],
+    "patient_reported_symptoms": [
+      "stomach ache",
+      "defecate"
+    ]
+  },
+  "39": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "diarrhea",
+      "vomiting",
+      "bloating"
+    ],
+    "neg-symptoms": [
+      "bloody stools",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "diarrhea"
+    ]
+  },
+  "40": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "vomiting",
+      "diarrhea"
+    ],
+    "neg-symptoms": [
+      "mucus pus and blood in the stool",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "vomiting"
+    ]
+  },
+  "41": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "diarrhea",
+      "cough",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "thirst",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "mucus pus and blood in the stool",
+      "fever",
+      "suppuration",
+      "stomach ache",
+      "tensile and heavy",
+      "vomiting",
+      "twitch",
+      "shortness of breath"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort",
+      "diarrhea"
+    ]
+  },
+  "42": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "vomiting",
+      "diarrhea",
+      "stomach ache"
+    ],
+    "neg-symptoms": [
+      "tensile and heavy",
+      "fever",
+      "thirst"
+    ],
+    "patient_reported_symptoms": [
+      "vomiting",
+      "diarrhea"
+    ]
+  },
+  "43": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "cough",
+      "fever",
+      "pharynx discomfort",
+      "diarrhea",
+      "fatigue"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "cough"
+    ]
+  },
+  "44": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "vomiting",
+      "diarrhea",
+      "pharynx discomfort",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "mucus pus and blood in the stool",
+      "suppuration",
+      "chills",
+      "tensile and heavy",
+      "twitch",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "vomiting",
+      "diarrhea"
+    ]
+  },
+  "45": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "dizzy",
+      "cough",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "difficulty breathing",
+      "feel sick and vomit",
+      "fever",
+      "headache"
+    ],
+    "patient_reported_symptoms": [
+      "dizzy",
+      "pharynx discomfort"
+    ]
+  },
+  "46": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "increased stool frequency",
+      "vomiting",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "consciousness disorder",
+      "rash",
+      "cough",
+      "twitch"
+    ],
+    "patient_reported_symptoms": [
+      "increased stool frequency"
+    ]
+  },
+  "47": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "fever",
+      "diarrhea",
+      "vomiting",
+      "decreased urine output"
+    ],
+    "neg-symptoms": [
+      "thirst",
+      "mucus pus and blood in the stool",
+      "suppuration",
+      "stomach ache",
+      "twitch",
+      "tensile and heavy"
+    ],
+    "patient_reported_symptoms": [
+      "fever",
+      "diarrhea"
+    ]
+  },
+  "48": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "poor spirits",
+      "loss of appetite",
+      "diarrhea"
+    ],
+    "neg-symptoms": [
+      "thirst",
+      "stomach ache",
+      "bloating",
+      "vomiting"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort"
+    ]
+  },
+  "49": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "stomach ache",
+      "diarrhea",
+      "nausea",
+      "fever"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "stomach ache",
+      "diarrhea"
+    ]
+  },
+  "50": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "decreased urine output",
+      "diarrhea"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "chills",
+      "cough",
+      "twitch"
+    ],
+    "patient_reported_symptoms": [
+      "decreased urine output"
+    ]
+  },
+  "51": {
+    "ground_truth": "Enteritis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "diarrhea",
+      "cough",
+      "vomiting",
+      "shortness of breath",
+      "fever"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "pharynx discomfort",
+      "diarrhea"
+    ]
+  },
+  "52": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "cough",
+      "shortness of breath"
+    ],
+    "neg-symptoms": [
+      "hemoptysis",
+      "fever",
+      "pain behind the breastbone",
+      "night sweats",
+      "fear of cold",
+      "fatigue"
+    ],
+    "patient_reported_symptoms": [
+      "cough",
+      "shortness of breath"
+    ]
+  },
+  "53": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "cough",
+      "first degree swelling of bilateral tonsils",
+      "fever",
+      "shortness of breath"
+    ],
+    "neg-symptoms": [
+      "suppuration"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort"
+    ]
+  },
+  "54": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "shortness of breath",
+      "cough"
+    ],
+    "neg-symptoms": [
+      "diarrhea",
+      "fever",
+      "vomiting",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "shortness of breath"
+    ]
+  },
+  "55": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "cough",
+      "shortness of breath",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "stuffy nose",
+      "expectoration"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "cough"
+    ]
+  },
+  "56": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "cough",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "expectoration"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "palpitations",
+      "pain behind the breastbone"
+    ],
+    "patient_reported_symptoms": [
+      "cough"
+    ]
+  },
+  "57": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "cough",
+      "shortness of breath",
+      "stuffy nose"
+    ],
+    "neg-symptoms": [
+      "runny nose",
+      "rash",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "cough"
+    ]
+  },
+  "58": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "difficulty breathing",
+      "cough",
+      "shortness of breath"
+    ],
+    "neg-symptoms": [
+      "expectoration"
+    ],
+    "patient_reported_symptoms": [
+      "difficulty breathing"
+    ]
+  },
+  "59": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "chest tightness",
+      "cough",
+      "shortness of breath",
+      "pharynx discomfort"
+    ],
+    "neg-symptoms": [
+      "pain behind the breastbone",
+      "palpitations",
+      "fever",
+      "fear of cold"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness"
+    ]
+  },
+  "60": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "shortness of breath",
+      "cough"
+    ],
+    "neg-symptoms": [
+      "hemoptysis",
+      "pain behind the breastbone"
+    ],
+    "patient_reported_symptoms": [
+      "shortness of breath"
+    ]
+  },
+  "61": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "chest tightness",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "pharynx discomfort",
+      "expectoration"
+    ],
+    "neg-symptoms": [
+      "pain behind the breastbone",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness"
+    ]
+  },
+  "62": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "consciousness disorder",
+      "cough",
+      "syncope",
+      "expectoration"
+    ],
+    "neg-symptoms": [
+      "twitch",
+      "vertigo",
+      "incontinence"
+    ],
+    "patient_reported_symptoms": [
+      "consciousness disorder"
+    ]
+  },
+  "63": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "runny nose",
+      "expectoration"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "pain behind the breastbone",
+      "hemoptysis",
+      "shortness of breath",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort",
+      "runny nose"
+    ]
+  },
+  "64": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "chest tightness",
+      "shortness of breath",
+      "cough"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "fear of cold"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "shortness of breath"
+    ]
+  },
+  "65": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "shortness of breath",
+      "pharynx discomfort"
+    ],
+    "neg-symptoms": [
+      "hemoptysis",
+      "expectoration",
+      "cough",
+      "diarrhea",
+      "stomach ache",
+      "pain behind the breastbone",
+      "nausea",
+      "vomiting",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "shortness of breath"
+    ]
+  },
+  "66": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "pain behind the breastbone",
+      "shortness of breath"
+    ],
+    "neg-symptoms": [
+      "headache",
+      "hemoptysis",
+      "diarrhea",
+      "fever",
+      "stomach ache",
+      "pharynx discomfort",
+      "runny nose",
+      "feel sick and vomit"
+    ],
+    "patient_reported_symptoms": [
+      "pain behind the breastbone",
+      "shortness of breath"
+    ]
+  },
+  "67": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "expectoration",
+      "shortness of breath",
+      "cough",
+      "pharynx discomfort"
+    ],
+    "neg-symptoms": [
+      "night sweats",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "expectoration",
+      "shortness of breath"
+    ]
+  },
+  "68": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "fever",
+      "shortness of breath"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "fever",
+      "shortness of breath"
+    ]
+  },
+  "69": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "cough",
+      "shortness of breath",
+      "expectoration"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "cough",
+      "shortness of breath"
+    ]
+  },
+  "70": {
+    "ground_truth": "Asthma",
+    "pos-symptoms": [
+      "chest tightness",
+      "cough"
+    ],
+    "neg-symptoms": [
+      "acid reflux",
+      "fever",
+      "shortness of breath",
+      "pain behind the breastbone"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "cough"
+    ]
+  },
+  "71": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "chest tightness",
+      "fatigue",
+      "palpitations",
+      "dizziness"
+    ],
+    "neg-symptoms": [
+      "pain behind the breastbone",
+      "vomiting"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "fatigue"
+    ]
+  },
+  "72": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "palpitations",
+      "poor sleep"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "cough",
+      "expectoration",
+      "edema"
+    ],
+    "patient_reported_symptoms": [
+      "palpitations",
+      "poor sleep"
+    ]
+  },
+  "73": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "chest tightness",
+      "palpitations"
+    ],
+    "neg-symptoms": [
+      "frequent urination",
+      "urgency"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "palpitations"
+    ]
+  },
+  "74": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "pain behind the breastbone",
+      "chest tightness",
+      "nausea",
+      "dizziness"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath"
+    ],
+    "patient_reported_symptoms": [
+      "pain behind the breastbone"
+    ]
+  },
+  "75": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "bloating",
+      "chest tightness",
+      "fatigue"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "pain behind the breastbone"
+    ],
+    "patient_reported_symptoms": [
+      "bloating"
+    ]
+  },
+  "76": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "chest tightness",
+      "pain behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "cough",
+      "hemoptysis",
+      "night sweats",
+      "difficulty breathing"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "shortness of breath",
+      "chest tightness and shortness of breath"
+    ]
+  },
+  "77": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "sweating",
+      "chest tightness",
+      "dizziness"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "sweating"
+    ]
+  },
+  "78": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "palpitations",
+      "tinnitus"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "pain behind the breastbone"
+    ],
+    "patient_reported_symptoms": [
+      "palpitations",
+      "tinnitus"
+    ]
+  },
+  "79": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "syncope",
+      "chest tightness",
+      "pain behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "palpitations",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath"
+    ],
+    "patient_reported_symptoms": [
+      "syncope"
+    ]
+  },
+  "80": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "chest tightness",
+      "fatigue",
+      "dizzy",
+      "pain behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "radiating pain",
+      "difficulty breathing",
+      "expectoration",
+      "fever",
+      "chills and fever",
+      "chills"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "fatigue"
+    ]
+  },
+  "81": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "pain behind the breastbone",
+      "fear of cold"
+    ],
+    "neg-symptoms": [
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "shortness of breath",
+      "chest tightness and shortness of breath"
+    ]
+  },
+  "82": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "chest tightness",
+      "dizzy",
+      "pain behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "fear of cold",
+      "fever",
+      "expectoration",
+      "radiating pain",
+      "difficulty breathing"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness"
+    ]
+  },
+  "83": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "edema",
+      "chest tightness",
+      "cough",
+      "fatigue"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "edema"
+    ]
+  },
+  "84": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "chest tightness",
+      "palpitations",
+      "pain behind the breastbone",
+      "feel sick and vomit"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "dizziness"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "palpitations"
+    ]
+  },
+  "85": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "palpitations",
+      "chest tightness",
+      "cough",
+      "pain behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "headache"
+    ],
+    "patient_reported_symptoms": [
+      "palpitations"
+    ]
+  },
+  "86": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "pain behind the breastbone",
+      "palpitations",
+      "chest tightness",
+      "cough",
+      "stomach ache",
+      "bitter"
+    ],
+    "neg-symptoms": [
+      "burning sensation behind the breastbone",
+      "acid reflux",
+      "diarrhea",
+      "bloating",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "pain behind the breastbone",
+      "palpitations"
+    ]
+  },
+  "87": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "chest tightness",
+      "palpitations"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "vomiting",
+      "syncope",
+      "nausea",
+      "pain behind the breastbone"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "palpitations"
+    ]
+  },
+  "88": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "palpitations",
+      "shortness of breath",
+      "chest tightness",
+      "pain behind the breastbone"
+    ],
+    "neg-symptoms": [
+      "syncope",
+      "hazy"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "palpitations",
+      "shortness of breath",
+      "chest tightness and shortness of breath"
+    ]
+  },
+  "89": {
+    "ground_truth": "Coronary heart disease",
+    "pos-symptoms": [
+      "expectoration",
+      "palpitations",
+      "chest tightness"
+    ],
+    "neg-symptoms": [
+      "pain behind the breastbone",
+      "difficulty breathing",
+      "fear of cold",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "expectoration",
+      "palpitations"
+    ]
+  },
+  "90": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "cough",
+      "poor spirits",
+      "fever"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "cough",
+      "pharynx discomfort"
+    ]
+  },
+  "91": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "cough",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "stuffy nose",
+      "hoarse",
+      "chills",
+      "runny nose",
+      "twitch",
+      "diarrhea",
+      "vomiting"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "shortness of breath",
+      "chest tightness and shortness of breath"
+    ]
+  },
+  "92": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "shortness of breath",
+      "cough",
+      "fever",
+      "expectoration"
+    ],
+    "neg-symptoms": [
+      "stuffy nose",
+      "runny nose"
+    ],
+    "patient_reported_symptoms": [
+      "shortness of breath"
+    ]
+  },
+  "93": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "cough",
+      "fever",
+      "expectoration"
+    ],
+    "neg-symptoms": [
+      "night sweats"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "shortness of breath",
+      "chest tightness and shortness of breath"
+    ]
+  },
+  "94": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "expectoration",
+      "pharynx discomfort",
+      "fever"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "expectoration"
+    ]
+  },
+  "95": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "cough",
+      "loss of appetite",
+      "oliguria",
+      "shortness of breath",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "diarrhea"
+    ],
+    "patient_reported_symptoms": [
+      "cough",
+      "loss of appetite"
+    ]
+  },
+  "96": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "fever",
+      "cough",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "rash",
+      "diarrhea",
+      "vomiting"
+    ],
+    "patient_reported_symptoms": [
+      "fever"
+    ]
+  },
+  "97": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "fever",
+      "lumbago"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "lumbago",
+      "fever"
+    ]
+  },
+  "98": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "fever",
+      "cough",
+      "fear of cold",
+      "chills"
+    ],
+    "neg-symptoms": [
+      "twitch",
+      "rash",
+      "suppuration"
+    ],
+    "patient_reported_symptoms": [
+      "fever"
+    ]
+  },
+  "99": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "cough",
+      "stuffy nose",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "shortness of breath",
+      "cyanosis"
+    ],
+    "patient_reported_symptoms": [
+      "cough",
+      "stuffy nose"
+    ]
+  },
+  "100": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "shortness of breath",
+      "cough"
+    ],
+    "neg-symptoms": [
+      "diarrhea",
+      "bloating",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort",
+      "shortness of breath"
+    ]
+  },
+  "101": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "expectoration",
+      "thirst",
+      "thin"
+    ],
+    "neg-symptoms": [
+      "cough",
+      "sleep disorder",
+      "pain behind the breastbone",
+      "palpitations",
+      "fever",
+      "hand tremor"
+    ],
+    "patient_reported_symptoms": [
+      "expectoration"
+    ]
+  },
+  "102": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "cough",
+      "fever",
+      "shortness of breath"
+    ],
+    "neg-symptoms": [
+      "difficulty breathing",
+      "twitch",
+      "cyanosis"
+    ],
+    "patient_reported_symptoms": [
+      "cough",
+      "fever"
+    ]
+  },
+  "103": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "cough",
+      "dizzy",
+      "fever",
+      "chills and fever",
+      "chills",
+      "fever",
+      "expectoration"
+    ],
+    "neg-symptoms": [
+      "headache",
+      "bloating",
+      "stomach ache",
+      "chills",
+      "vomiting",
+      "diarrhea"
+    ],
+    "patient_reported_symptoms": [
+      "cough",
+      "dizzy"
+    ]
+  },
+  "104": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "shortness of breath",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "suppuration",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort"
+    ]
+  },
+  "105": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "expectoration",
+      "cough",
+      "shortness of breath"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath"
+    ],
+    "patient_reported_symptoms": [
+      "expectoration"
+    ]
+  },
+  "106": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "expectoration",
+      "cough"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "stomach ache",
+      "chest tightness"
+    ],
+    "patient_reported_symptoms": [
+      "expectoration"
+    ]
+  },
+  "107": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "diarrhea",
+      "stuffy nose",
+      "vomiting"
+    ],
+    "neg-symptoms": [
+      "cough"
+    ],
+    "patient_reported_symptoms": [
+      "stuffy nose",
+      "diarrhea"
+    ]
+  },
+  "108": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "cough",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "fever",
+      "twitch"
+    ],
+    "patient_reported_symptoms": [
+      "cough"
+    ]
+  },
+  "109": {
+    "ground_truth": "Pneumonia",
+    "pos-symptoms": [
+      "cough",
+      "fever",
+      "chills"
+    ],
+    "neg-symptoms": [
+      "twitch"
+    ],
+    "patient_reported_symptoms": [
+      "cough"
+    ]
+  },
+  "110": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "stuffy nose",
+      "cough",
+      "sneeze",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "headache",
+      "nose bleeding"
+    ],
+    "patient_reported_symptoms": [
+      "stuffy nose"
+    ]
+  },
+  "111": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "expectoration",
+      "runny nose",
+      "cough"
+    ],
+    "neg-symptoms": [
+      "pharynx discomfort",
+      "fever",
+      "dizziness",
+      "headache"
+    ],
+    "patient_reported_symptoms": [
+      "expectoration",
+      "runny nose"
+    ]
+  },
+  "112": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "sneeze",
+      "headache",
+      "runny nose",
+      "pharynx discomfort"
+    ],
+    "neg-symptoms": [
+      "cough",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "sneeze"
+    ]
+  },
+  "113": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "stuffy nose",
+      "cough",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "sneeze",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "stuffy nose"
+    ]
+  },
+  "114": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "cough",
+      "stuffy nose",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "diarrhea",
+      "fever",
+      "rash"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort"
+    ]
+  },
+  "115": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "nasal congestion",
+      "stuffy nose"
+    ],
+    "neg-symptoms": [
+      "hearing loss",
+      "earache"
+    ],
+    "patient_reported_symptoms": [
+      "nasal congestion"
+    ]
+  },
+  "116": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "swelling of both nasal mucosa",
+      "nasal mucosal congestion"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "diplopia"
+    ],
+    "patient_reported_symptoms": [
+      "swelling of both nasal mucosa",
+      "nasal mucosal congestion"
+    ]
+  },
+  "117": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "sneeze",
+      "cough",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "hemoptysis",
+      "pain behind the breastbone"
+    ],
+    "patient_reported_symptoms": [
+      "sneeze"
+    ]
+  },
+  "118": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "itchy eyes",
+      "sneeze",
+      "stuffy nose"
+    ],
+    "neg-symptoms": [
+      "headache"
+    ],
+    "patient_reported_symptoms": [
+      "itchy eyes"
+    ]
+  },
+  "119": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "stuffy nose",
+      "hoarse",
+      "cough",
+      "pharynx discomfort"
+    ],
+    "neg-symptoms": [
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "stuffy nose",
+      "hoarse"
+    ]
+  },
+  "120": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "nose bleeding",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "cough",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "nose bleeding"
+    ]
+  },
+  "121": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "stuffy nose",
+      "headache",
+      "sneeze",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "nose bleeding"
+    ],
+    "patient_reported_symptoms": [
+      "stuffy nose",
+      "headache"
+    ]
+  },
+  "122": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "stuffy nose",
+      "dizzy",
+      "runny nose"
+    ],
+    "neg-symptoms": [
+      "sneeze"
+    ],
+    "patient_reported_symptoms": [
+      "dizzy",
+      "stuffy nose"
+    ]
+  },
+  "123": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "sneeze",
+      "cough",
+      "pharynx discomfort"
+    ],
+    "neg-symptoms": [
+      "stuffy nose",
+      "runny nose",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "sneeze"
+    ]
+  },
+  "124": {
+    "ground_truth": "Rhinitis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "cough",
+      "stuffy nose",
+      "sneeze",
+      "expectoration"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "pharynx discomfort"
+    ]
+  },
+  "125": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "fever",
+      "pain in front of neck"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "pain in front of neck",
+      "fever"
+    ]
+  },
+  "126": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "mild thyroid enlargement"
+    ],
+    "neg-symptoms": [
+      "cough",
+      "fatigue",
+      "fever",
+      "stuffy nose"
+    ],
+    "patient_reported_symptoms": [
+      "mild thyroid enlargement",
+      "pharynx discomfort"
+    ]
+  },
+  "127": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "hard to swallow",
+      "night sweats",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "pain in front of neck",
+      "palpitations"
+    ],
+    "neg-symptoms": [
+      "hand tremor"
+    ],
+    "patient_reported_symptoms": [
+      "night sweats",
+      "hard to swallow"
+    ]
+  },
+  "128": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "fatigue",
+      "fever",
+      "sweating"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "fatigue"
+    ]
+  },
+  "129": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "fatigue",
+      "headache",
+      "pain in front of neck"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "fatigue"
+    ]
+  },
+  "130": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "sweating",
+      "dizzy"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "dizzy",
+      "sweating"
+    ]
+  },
+  "131": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "difficulty breathing"
+    ],
+    "neg-symptoms": [
+      "hoarse",
+      "proptosis",
+      "edema",
+      "fatigue",
+      "palpitations"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "difficulty breathing",
+      "shortness of breath",
+      "chest tightness and shortness of breath"
+    ]
+  },
+  "132": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "mild thyroid enlargement"
+    ],
+    "neg-symptoms": [
+      "fatigue",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort"
+    ]
+  },
+  "133": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "sleep disorder",
+      "eye swelling",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "palpitations",
+      "proptosis"
+    ],
+    "patient_reported_symptoms": [
+      "sleep disorder"
+    ]
+  },
+  "134": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "thirst",
+      "pain in front of neck"
+    ],
+    "neg-symptoms": [
+      "palpitations",
+      "afraid of heat",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "pain in front of neck",
+      "thirst"
+    ]
+  },
+  "135": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "fever",
+      "palpitations",
+      "mild thyroid enlargement",
+      "pain in front of neck",
+      "pharynx discomfort",
+      "fatigue"
+    ],
+    "neg-symptoms": [
+      "stuffy nose",
+      "cough"
+    ],
+    "patient_reported_symptoms": [
+      "palpitations",
+      "fever"
+    ]
+  },
+  "136": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "anorexia",
+      "fatigue"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "fatigue",
+      "anorexia"
+    ]
+  },
+  "137": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "pain in front of neck",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "proptosis"
+    ],
+    "patient_reported_symptoms": [
+      "pain in front of neck"
+    ]
+  },
+  "138": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "hoarse",
+      "palpitations"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "hard to swallow"
+    ],
+    "patient_reported_symptoms": [
+      "pharynx discomfort",
+      "hoarse"
+    ]
+  },
+  "139": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "pain in front of neck",
+      "mild thyroid enlargement",
+      "loss of appetite"
+    ],
+    "neg-symptoms": [
+      "fatigue",
+      "cough",
+      "fever",
+      "palpitations",
+      "sweating",
+      "stuffy nose"
+    ],
+    "patient_reported_symptoms": [
+      "pain in front of neck",
+      "mild thyroid enlargement"
+    ]
+  },
+  "140": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "anorexia",
+      "constipation",
+      "fatigue"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "anorexia"
+    ]
+  },
+  "141": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "chest tightness",
+      "palpitations"
+    ],
+    "neg-symptoms": [
+      "thirst",
+      "hoarse",
+      "fever",
+      "proptosis",
+      "fear of cold",
+      "hard to swallow"
+    ],
+    "patient_reported_symptoms": [
+      "chest tightness",
+      "palpitations"
+    ]
+  },
+  "142": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "pharynx discomfort",
+      "pain in front of neck"
+    ],
+    "neg-symptoms": [
+      "fatigue",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "pain in front of neck",
+      "pharynx discomfort"
+    ]
+  },
+  "143": {
+    "ground_truth": "Thyroiditis",
+    "pos-symptoms": [
+      "pain in front of neck",
+      "cough",
+      "mild thyroid enlargement"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "pain in front of neck"
+    ]
+  },
+  "144": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "stomach ache",
+      "headache"
+    ],
+    "neg-symptoms": [
+      "nausea",
+      "unconsciousness",
+      "vomiting"
+    ],
+    "patient_reported_symptoms": [
+      "stomach ache"
+    ]
+  },
+  "145": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "dizzy",
+      "head trauma pain"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "dizzy",
+      "head trauma pain"
+    ]
+  },
+  "146": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "nausea",
+      "dizzy"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "dizzy",
+      "nausea"
+    ]
+  },
+  "147": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "dizziness",
+      "headache",
+      "headache and dizziness",
+      "vomiting",
+      "head trauma pain"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "dizziness",
+      "headache",
+      "headache and dizziness"
+    ]
+  },
+  "148": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "consciousness disorder",
+      "dizzy"
+    ],
+    "neg-symptoms": [
+      "headache"
+    ],
+    "patient_reported_symptoms": [
+      "consciousness disorder"
+    ]
+  },
+  "149": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "headache",
+      "dizziness"
+    ],
+    "neg-symptoms": [
+      "dizzy",
+      "vomiting",
+      "consciousness disorder",
+      "nausea"
+    ],
+    "patient_reported_symptoms": [
+      "headache"
+    ]
+  },
+  "150": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "fever",
+      "cry"
+    ],
+    "neg-symptoms": [
+      "nausea",
+      "consciousness disorder",
+      "vomiting",
+      "headache"
+    ],
+    "patient_reported_symptoms": [
+      "fever"
+    ]
+  },
+  "151": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "nausea",
+      "headache"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "nausea",
+      "headache"
+    ]
+  },
+  "152": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "head trauma pain",
+      "feel sick and vomit"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "fear of cold",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "head trauma pain"
+    ]
+  },
+  "153": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "dizziness",
+      "headache",
+      "headache and dizziness",
+      "stomach ache"
+    ],
+    "neg-symptoms": [
+      "feel sick and vomit",
+      "unconsciousness"
+    ],
+    "patient_reported_symptoms": [
+      "dizziness",
+      "headache",
+      "headache and dizziness"
+    ]
+  },
+  "154": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "nausea",
+      "head trauma pain"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "nausea",
+      "head trauma pain"
+    ]
+  },
+  "155": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "poor spirits",
+      "dizzy"
+    ],
+    "neg-symptoms": [
+      "nausea",
+      "vomiting"
+    ],
+    "patient_reported_symptoms": [
+      "poor spirits"
+    ]
+  },
+  "156": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "stomach ache",
+      "dizziness",
+      "headache",
+      "headache and dizziness"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "vertigo",
+      "nausea"
+    ],
+    "patient_reported_symptoms": [
+      "stomach ache"
+    ]
+  },
+  "157": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "vomiting",
+      "pain behind the breastbone",
+      "twitch",
+      "bloating",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "headache"
+    ]
+  },
+  "158": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "dizziness",
+      "headache",
+      "headache and dizziness"
+    ],
+    "neg-symptoms": [
+      "consciousness disorder",
+      "incontinence"
+    ],
+    "patient_reported_symptoms": [
+      "dizziness",
+      "headache",
+      "headache and dizziness"
+    ]
+  },
+  "159": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "dizziness",
+      "head trauma pain"
+    ],
+    "neg-symptoms": [
+      "consciousness disorder",
+      "incontinence"
+    ],
+    "patient_reported_symptoms": [
+      "dizziness",
+      "head trauma pain"
+    ]
+  },
+  "160": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "headache",
+      "syncope"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "syncope",
+      "headache"
+    ]
+  },
+  "161": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "headache",
+      "dizzy",
+      "consciousness disorder"
+    ],
+    "neg-symptoms": [
+      "nausea",
+      "vomiting"
+    ],
+    "patient_reported_symptoms": [
+      "dizzy",
+      "headache"
+    ]
+  },
+  "162": {
+    "ground_truth": "Traumatic brain injury",
+    "pos-symptoms": [
+      "dizziness",
+      "head trauma pain"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "dizziness",
+      "head trauma pain"
+    ]
+  },
+  "163": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching",
+      "cough"
+    ],
+    "neg-symptoms": [
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "rash",
+      "itching"
+    ]
+  },
+  "164": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "itching",
+      "rash"
+    ],
+    "neg-symptoms": [
+      "difficulty breathing",
+      "stomach ache",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "itching"
+    ]
+  },
+  "165": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "itching",
+      "rash"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "itching"
+    ]
+  },
+  "166": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "cough",
+      "itching",
+      "difficulty breathing"
+    ],
+    "neg-symptoms": [
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "cough",
+      "itching"
+    ]
+  },
+  "167": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "chest tightness"
+    ],
+    "patient_reported_symptoms": [
+      "rash"
+    ]
+  },
+  "168": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "papule",
+      "congestion of skin and mucous membranes"
+    ],
+    "neg-symptoms": [
+      "fear of cold",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "papule",
+      "congestion of skin and mucous membranes"
+    ]
+  },
+  "169": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "rash",
+      "itching"
+    ]
+  },
+  "170": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "itching",
+      "rash"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "fever",
+      "difficulty breathing"
+    ],
+    "patient_reported_symptoms": [
+      "itching"
+    ]
+  },
+  "171": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "itching",
+      "rash"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "stomach ache",
+      "diarrhea"
+    ],
+    "patient_reported_symptoms": [
+      "itching"
+    ]
+  },
+  "172": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "difficulty breathing"
+    ],
+    "patient_reported_symptoms": [
+      "rash",
+      "itching"
+    ]
+  },
+  "173": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "itching",
+      "rash"
+    ],
+    "neg-symptoms": [
+      "fear of cold",
+      "headache",
+      "dizzy",
+      "fever",
+      "chest tightness",
+      "palpitations"
+    ],
+    "patient_reported_symptoms": [
+      "itching"
+    ]
+  },
+  "174": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "congestion of skin and mucous membranes",
+      "itching",
+      "rash"
+    ],
+    "neg-symptoms": [
+      "fear of cold",
+      "headache",
+      "dizzy",
+      "fever",
+      "palpitations",
+      "chest tightness"
+    ],
+    "patient_reported_symptoms": [
+      "congestion of skin and mucous membranes"
+    ]
+  },
+  "175": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching"
+    ],
+    "neg-symptoms": [
+      "difficulty breathing",
+      "cough",
+      "fever",
+      "vomiting",
+      "runny nose",
+      "diarrhea"
+    ],
+    "patient_reported_symptoms": [
+      "rash",
+      "itching"
+    ]
+  },
+  "176": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching"
+    ],
+    "neg-symptoms": [
+      "difficulty breathing",
+      "fever",
+      "cough"
+    ],
+    "patient_reported_symptoms": [
+      "rash",
+      "itching"
+    ]
+  },
+  "177": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "chest tightness"
+    ],
+    "patient_reported_symptoms": [
+      "rash"
+    ]
+  },
+  "178": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "vomiting",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "rash"
+    ]
+  },
+  "179": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "difficulty breathing",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "palpitations",
+      "pain behind the breastbone"
+    ],
+    "patient_reported_symptoms": [
+      "rash",
+      "itching"
+    ]
+  },
+  "180": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "dizziness",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath"
+    ],
+    "patient_reported_symptoms": [
+      "rash",
+      "itching"
+    ]
+  },
+  "181": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching",
+      "chest tightness"
+    ],
+    "neg-symptoms": [
+      "difficulty breathing",
+      "fever",
+      "stomach ache"
+    ],
+    "patient_reported_symptoms": [
+      "rash",
+      "itching"
+    ]
+  },
+  "182": {
+    "ground_truth": "Dermatitis",
+    "pos-symptoms": [
+      "rash",
+      "itching"
+    ],
+    "neg-symptoms": [
+      "pharynx discomfort",
+      "diarrhea",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "rash",
+      "itching"
+    ]
+  },
+  "183": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "itching",
+      "ear itching"
+    ],
+    "neg-symptoms": [
+      "tinnitus",
+      "fever",
+      "hearing loss"
+    ],
+    "patient_reported_symptoms": [
+      "ear itching",
+      "itching"
+    ]
+  },
+  "184": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "itching",
+      "ear itching",
+      "tinnitus"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "ear itching",
+      "tinnitus",
+      "itching"
+    ]
+  },
+  "185": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "earache"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "fever",
+      "tinnitus",
+      "hearing loss"
+    ],
+    "patient_reported_symptoms": [
+      "earache"
+    ]
+  },
+  "186": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "hearing loss",
+      "earache",
+      "tinnitus",
+      "earache",
+      "right earache",
+      "itching",
+      "ear itching"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "difficulty breathing"
+    ],
+    "patient_reported_symptoms": [
+      "hearing loss"
+    ]
+  },
+  "187": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "earache",
+      "right earache",
+      "hearing loss"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "right earache",
+      "hearing loss",
+      "earache"
+    ]
+  },
+  "188": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "earache",
+      "itching",
+      "ear itching"
+    ],
+    "neg-symptoms": [
+      "palpitations",
+      "fever",
+      "vertigo"
+    ],
+    "patient_reported_symptoms": [
+      "earache"
+    ]
+  },
+  "189": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "tinnitus",
+      "earache",
+      "hearing loss",
+      "earache",
+      "right earache"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "vertigo"
+    ],
+    "patient_reported_symptoms": [
+      "tinnitus"
+    ]
+  },
+  "190": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "earache",
+      "hearing loss",
+      "tinnitus",
+      "earache",
+      "right earache",
+      "itching",
+      "ear itching"
+    ],
+    "neg-symptoms": [
+      "vertigo",
+      "palpitations"
+    ],
+    "patient_reported_symptoms": [
+      "hearing loss",
+      "earache"
+    ]
+  },
+  "191": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "earache",
+      "itching",
+      "ear itching"
+    ],
+    "neg-symptoms": [
+      "tinnitus",
+      "hearing loss",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "earache"
+    ]
+  },
+  "192": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "earache",
+      "right earache",
+      "tinnitus",
+      "itching",
+      "ear itching",
+      "hearing loss"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "dizziness",
+      "earache"
+    ],
+    "patient_reported_symptoms": [
+      "right earache",
+      "earache"
+    ]
+  },
+  "193": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "tinnitus",
+      "hearing loss",
+      "earache",
+      "right earache",
+      "itching",
+      "ear itching"
+    ],
+    "neg-symptoms": [
+      "vertigo",
+      "fever",
+      "headache"
+    ],
+    "patient_reported_symptoms": [
+      "hearing loss",
+      "tinnitus"
+    ]
+  },
+  "194": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "hearing loss",
+      "earache",
+      "right earache",
+      "itching",
+      "ear itching"
+    ],
+    "neg-symptoms": [
+      "tinnitus",
+      "fever",
+      "earache",
+      "vertigo",
+      "nausea",
+      "vomiting",
+      "headache"
+    ],
+    "patient_reported_symptoms": [
+      "hearing loss"
+    ]
+  },
+  "195": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "itching",
+      "ear itching"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "hearing loss"
+    ],
+    "patient_reported_symptoms": [
+      "ear itching",
+      "itching"
+    ]
+  },
+  "196": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "earache",
+      "hearing loss",
+      "earache",
+      "right earache"
+    ],
+    "neg-symptoms": [
+      "stuffy nose",
+      "runny nose",
+      "tinnitus"
+    ],
+    "patient_reported_symptoms": [
+      "earache"
+    ]
+  },
+  "197": {
+    "ground_truth": "External otitis",
+    "pos-symptoms": [
+      "earache",
+      "itching",
+      "ear itching"
+    ],
+    "neg-symptoms": [
+      "vertigo",
+      "hearing loss",
+      "tinnitus"
+    ],
+    "patient_reported_symptoms": [
+      "earache"
+    ]
+  },
+  "198": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "itchy and uncomfortable eyes",
+      "eye pain"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "eye pain",
+      "itchy and uncomfortable eyes"
+    ]
+  },
+  "199": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "jealous",
+      "itchy and uncomfortable eyes"
+    ],
+    "neg-symptoms": [
+      "headache",
+      "cry",
+      "dizziness",
+      "photophobia"
+    ],
+    "patient_reported_symptoms": [
+      "jealous"
+    ]
+  },
+  "200": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "eye pain",
+      "cry",
+      "photophobia"
+    ],
+    "neg-symptoms": [
+      "vision loss"
+    ],
+    "patient_reported_symptoms": [
+      "eye pain"
+    ]
+  },
+  "201": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "sneeze",
+      "itchy eyes"
+    ],
+    "neg-symptoms": [
+      "cry",
+      "photophobia",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "sneeze",
+      "itchy eyes"
+    ]
+  },
+  "202": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "photophobia",
+      "cry",
+      "jealous"
+    ],
+    "neg-symptoms": [
+      "pharynx discomfort",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "photophobia"
+    ]
+  },
+  "203": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "eye pain",
+      "itchy and uncomfortable eyes",
+      "jealous"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "eye pain"
+    ]
+  },
+  "204": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "itchy and uncomfortable eyes",
+      "jealous"
+    ],
+    "neg-symptoms": [
+      "headache",
+      "cry",
+      "hazy",
+      "photophobia",
+      "eye pain"
+    ],
+    "patient_reported_symptoms": [
+      "jealous",
+      "itchy and uncomfortable eyes"
+    ]
+  },
+  "205": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "jealous"
+    ],
+    "neg-symptoms": [
+      "vision loss",
+      "photophobia",
+      "cry"
+    ],
+    "patient_reported_symptoms": [
+      "jealous"
+    ]
+  },
+  "206": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "itchy and uncomfortable eyes",
+      "jealous"
+    ],
+    "neg-symptoms": [
+      "itchy eyes",
+      "photophobia",
+      "cry"
+    ],
+    "patient_reported_symptoms": [
+      "jealous",
+      "itchy and uncomfortable eyes"
+    ]
+  },
+  "207": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "itchy eyes"
+    ],
+    "neg-symptoms": [
+      "cry",
+      "photophobia",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "itchy eyes"
+    ]
+  },
+  "208": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "jealous"
+    ],
+    "neg-symptoms": [
+      "cry",
+      "hazy",
+      "eye pain",
+      "photophobia"
+    ],
+    "patient_reported_symptoms": [
+      "jealous"
+    ]
+  },
+  "209": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "itchy and uncomfortable eyes",
+      "jealous",
+      "cry",
+      "itchy eyes",
+      "photophobia"
+    ],
+    "neg-symptoms": [
+      "feel sick and vomit",
+      "vision loss"
+    ],
+    "patient_reported_symptoms": [
+      "jealous",
+      "itchy and uncomfortable eyes"
+    ]
+  },
+  "210": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "fever",
+      "cry",
+      "jealous"
+    ],
+    "neg-symptoms": [
+      "photophobia"
+    ],
+    "patient_reported_symptoms": [
+      "cry",
+      "fever"
+    ]
+  },
+  "211": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "cry",
+      "jealous",
+      "itchy eyes",
+      "photophobia"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "cry"
+    ]
+  },
+  "212": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "cry",
+      "jealous",
+      "itchy and uncomfortable eyes"
+    ],
+    "neg-symptoms": [
+      "diplopia",
+      "eye swelling",
+      "eye pain"
+    ],
+    "patient_reported_symptoms": [
+      "cry",
+      "jealous"
+    ]
+  },
+  "213": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "itchy and uncomfortable eyes",
+      "eye pain",
+      "jealous"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "photophobia",
+      "cry"
+    ],
+    "patient_reported_symptoms": [
+      "eye pain",
+      "itchy and uncomfortable eyes"
+    ]
+  },
+  "214": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "photophobia",
+      "eye swelling"
+    ],
+    "neg-symptoms": [
+      "vision loss"
+    ],
+    "patient_reported_symptoms": [
+      "photophobia"
+    ]
+  },
+  "215": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "jealous"
+    ],
+    "neg-symptoms": [
+      "cry",
+      "pharynx discomfort",
+      "photophobia",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "jealous"
+    ]
+  },
+  "216": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "itchy eyes",
+      "itchy and uncomfortable eyes",
+      "jealous"
+    ],
+    "neg-symptoms": [
+      "fever",
+      "hazy",
+      "photophobia",
+      "cry"
+    ],
+    "patient_reported_symptoms": [
+      "itchy eyes",
+      "itchy and uncomfortable eyes"
+    ]
+  },
+  "217": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "photophobia",
+      "itchy and uncomfortable eyes",
+      "cry",
+      "pharynx discomfort",
+      "jealous"
+    ],
+    "neg-symptoms": [
+      "stuffy nose",
+      "runny nose",
+      "cough"
+    ],
+    "patient_reported_symptoms": [
+      "photophobia"
+    ]
+  },
+  "218": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "cry",
+      "itchy eyes",
+      "itchy and uncomfortable eyes",
+      "jealous",
+      "photophobia"
+    ],
+    "neg-symptoms": [
+      "vision loss",
+      "feel sick and vomit"
+    ],
+    "patient_reported_symptoms": [
+      "cry",
+      "itchy eyes"
+    ]
+  },
+  "219": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "fear of cold",
+      "breast tenderness",
+      "headache",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "stuffy nose",
+      "pharynx discomfort",
+      "runny nose"
+    ],
+    "patient_reported_symptoms": [
+      "fear of cold",
+      "breast tenderness"
+    ]
+  },
+  "220": {
+    "ground_truth": "Conjunctivitis",
+    "pos-symptoms": [
+      "cough",
+      "breast tenderness",
+      "pharynx discomfort",
+      "fever"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "cough"
+    ]
+  },
+  "221": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "headache",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "pain behind the breastbone",
+      "diarrhea",
+      "consciousness disorder",
+      "twitch",
+      "painful urination",
+      "chest tightness"
+    ],
+    "patient_reported_symptoms": [
+      "headache"
+    ]
+  },
+  "222": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "dizziness",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "consciousness disorder",
+      "twitch",
+      "diarrhea"
+    ],
+    "patient_reported_symptoms": [
+      "dizziness",
+      "fever"
+    ]
+  },
+  "223": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "fever",
+      "fatigue",
+      "dizzy",
+      "vomiting",
+      "pharynx discomfort",
+      "fear of cold"
+    ],
+    "neg-symptoms": [
+      "cough",
+      "incontinence",
+      "body aches",
+      "expectoration",
+      "nausea"
+    ],
+    "patient_reported_symptoms": [
+      "fatigue",
+      "fever"
+    ]
+  },
+  "224": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "fever",
+      "thin",
+      "thin white moss"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "thin",
+      "thin white moss",
+      "fever"
+    ]
+  },
+  "225": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "headache",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "stomach ache",
+      "pharynx discomfort",
+      "diarrhea",
+      "frequent urination",
+      "vomiting",
+      "cough"
+    ],
+    "patient_reported_symptoms": [
+      "headache"
+    ]
+  },
+  "226": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "headache",
+      "breast tenderness",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "waist pain",
+      "diarrhea",
+      "frequent urination",
+      "stomach ache",
+      "urgency",
+      "vomiting",
+      "painful urination"
+    ],
+    "patient_reported_symptoms": [
+      "headache"
+    ]
+  },
+  "227": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "breast tenderness",
+      "fever",
+      "fever",
+      "chills and fever",
+      "chills",
+      "fear of cold"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "stuffy nose",
+      "runny nose",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "chills"
+    ],
+    "patient_reported_symptoms": [
+      "breast tenderness"
+    ]
+  },
+  "228": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "breast tenderness",
+      "fever"
+    ],
+    "neg-symptoms": [
+      "vomiting",
+      "nausea"
+    ],
+    "patient_reported_symptoms": [
+      "breast tenderness"
+    ]
+  },
+  "229": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "fever",
+      "chills and fever",
+      "chills",
+      "breast tenderness"
+    ],
+    "neg-symptoms": [
+      "chest tightness",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "dizziness",
+      "headache"
+    ],
+    "patient_reported_symptoms": [
+      "chills and fever",
+      "chills",
+      "breast tenderness",
+      "fever"
+    ]
+  },
+  "230": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "fever",
+      "headache"
+    ],
+    "neg-symptoms": [
+      "runny nose",
+      "pharynx discomfort",
+      "cough"
+    ],
+    "patient_reported_symptoms": [
+      "headache",
+      "fever"
+    ]
+  },
+  "231": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "body aches",
+      "breast tenderness",
+      "fever",
+      "fear of cold"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "body aches"
+    ]
+  },
+  "232": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "fever",
+      "breast tenderness"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "breast tenderness",
+      "fever"
+    ]
+  },
+  "233": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "stomach ache",
+      "fever"
+    ],
+    "neg-symptoms": [],
+    "patient_reported_symptoms": [
+      "stomach ache",
+      "fever"
+    ]
+  },
+  "234": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "breast tenderness"
+    ],
+    "neg-symptoms": [
+      "fear of cold",
+      "stomach ache",
+      "fever",
+      "chest tightness",
+      "chest tightness and shortness of breath",
+      "shortness of breath",
+      "chest tightness"
+    ],
+    "patient_reported_symptoms": [
+      "breast tenderness"
+    ]
+  },
+  "235": {
+    "ground_truth": "Mastitis",
+    "pos-symptoms": [
+      "headache",
+      "breast tenderness"
+    ],
+    "neg-symptoms": [
+      "dizziness",
+      "fever"
+    ],
+    "patient_reported_symptoms": [
+      "headache",
+      "breast tenderness"
+    ]
+  }
+}
