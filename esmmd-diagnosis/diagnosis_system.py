@@ -20,7 +20,7 @@ class DiagnosisSystem:
             if score_diff > RANK_THRESHOLD:
                 return True
         return False
-    
+        
     def modify_ppr(self, possible_diseases, ppr_output):
         for key in list(ppr_output.keys()):
             if key not in possible_diseases:
@@ -59,18 +59,15 @@ class DiagnosisSystem:
                     candidate_diseases, patient_data, max_turns=MAX_DIALOGUE_TURNS):
         G = nx.DiGraph()
         dialogue_node = f"user query_{dialogue_id}"
-        gt_lower = ground_truth.lower()
-        gt_in_initial_candidates = gt_lower in [d.lower() for d in candidate_diseases]
         asked_symptoms = set(initial_symptoms)
-        yes_symptoms = set(initial_symptoms)
+        yes_symptoms = set(initial_symptoms)  
         candidate_diseases, G, possible_diseases = self.graph_builder.create_graph(
             G, dialogue_node, initial_symptoms, 1, 0, 
-            candidate_diseases, set(candidate_diseases), 1, gt_lower
+            candidate_diseases, set(candidate_diseases), 1, ground_truth.lower()
         )
         current_symptom = initial_symptoms[0] if initial_symptoms else None
         turn = 1
         output_dict = {}
-        
         while turn <= max_turns:
             entropy_syms = self.symptom_selector.get_entropy_based_symptoms(
                 current_symptom, possible_diseases, asked_symptoms
@@ -82,34 +79,32 @@ class DiagnosisSystem:
             patient_response = self.generate_patient_response(
                 doctor_symptom, dialogue_id, patient_data
             )
-            #Response is yes
             if patient_response == 1:
-                yes_symptoms.add(doctor_symptom)
+                yes_symptoms.add(doctor_symptom)  # FIXED
                 candidate_diseases, G, possible_diseases = self.graph_builder.create_graph(
                     G, dialogue_node, [doctor_symptom], 1, turn,
-                    candidate_diseases, possible_diseases, 1, gt_lower
+                    candidate_diseases, possible_diseases, 1, ground_truth.lower()
                 )
                 current_symptom = doctor_symptom
-            #Response is no
             elif patient_response == -1:
                 candidate_diseases, G, possible_diseases = self.graph_builder.create_graph(
                     G, dialogue_node, [doctor_symptom], -1, turn,
-                    candidate_diseases, possible_diseases, 2, gt_lower
+                    candidate_diseases, possible_diseases, 2, ground_truth.lower()
                 )
-            # For don't know case
             else: 
                 avg_cooccur = self.calculate_avg_cooccurrence(
-                    doctor_symptom, yes_symptoms, self.data_loader.co_occurrence_dict
+                    doctor_symptom, 
+                    yes_symptoms,
+                    self.data_loader.co_occurrence_dict
                 )
                 if avg_cooccur > DONT_KNOW_THRESHOLD:
                     response_val = 1
-                    yes_symptoms.add(doctor_symptom)
+                    yes_symptoms.add(doctor_symptom) 
                 else:
                     response_val = 0
-                
                 candidate_diseases, G, possible_diseases = self.graph_builder.create_graph(
                     G, dialogue_node, [doctor_symptom], response_val, turn,
-                    candidate_diseases, possible_diseases, 3, gt_lower
+                    candidate_diseases, possible_diseases, 3, ground_truth.lower()
                 )
             output_dict = self.pagerank_calc.calculate_disease_rank(G, dialogue_id)
             output_dict = self.modify_ppr(possible_diseases, output_dict)
@@ -118,9 +113,7 @@ class DiagnosisSystem:
                     predicted = list(possible_diseases)[0]
                 else:
                     predicted = list(output_dict.keys())[0] if output_dict else None
-                
-                break
-            
+                return predicted, list(output_dict.keys()), turn, asked_symptoms
             turn += 1
         if not output_dict:
             output_dict = self.pagerank_calc.calculate_disease_rank(G, dialogue_id)
@@ -131,26 +124,12 @@ class DiagnosisSystem:
             predicted = keys[0]
         else:
             predicted = None
-        error_category = None
-        pruned_diseases = self.graph_builder.pruned_diseases.get(str(dialogue_id), [])
-        predicted_lower = predicted.lower() if isinstance(predicted, str) else (predicted[0].lower() if isinstance(predicted, list) and predicted else "")
-        if gt_lower != predicted_lower:
-            if not gt_in_initial_candidates:
-                error_category = "not_in_initial_candidates"
-            elif gt_lower in [d.lower() for d in pruned_diseases]:
-                error_category = "pruned_during_dialogue"
-            elif gt_lower in [k.lower() for k in keys]:
-                error_category = "present_but_not_top1"
-            else:
-                error_category = "other"
-        return predicted, keys, turn-1, asked_symptoms, error_category
-                        
+        return predicted, list(output_dict.keys()), turn-1, asked_symptoms
+    
     def run_dialogue_from_image(self, dialogue_id, image_filename, ground_truth, 
                                 image_disease_dict, patient_data, max_turns=MAX_DIALOGUE_TURNS):
         G = nx.DiGraph()
         dialogue_node = f"user query_{dialogue_id}"
-        gt_lower = ground_truth.lower()
-        gt_in_initial_candidates = gt_lower in [d.lower() for d in image_disease_dict.keys()]
         visual_symptoms = self.data_loader.image_processor.img_to_sym(image_filename)
         if not visual_symptoms:
             symptom_name = f"visual_symptom_{image_filename}"
@@ -158,7 +137,9 @@ class DiagnosisSystem:
         initial_symptom = visual_symptoms[0].lower()
         asked_symptoms = set([initial_symptom])
         yes_symptoms = set([initial_symptom])
-        candidate_diseases, G, possible_diseases = self.graph_builder.create_graph_from_image(G, dialogue_node, initial_symptom, image_disease_dict, set())
+        candidate_diseases, G, possible_diseases = self.graph_builder.create_graph_from_image(
+            G, dialogue_node, initial_symptom, image_disease_dict, set()
+        )
         candidate_diseases = [d.lower() for d in candidate_diseases]
         possible_diseases = [d.lower() for d in possible_diseases]
         turn = 1
@@ -179,26 +160,28 @@ class DiagnosisSystem:
                 yes_symptoms.add(doctor_symptom)
                 candidate_diseases, G, possible_diseases = self.graph_builder.create_graph(
                     G, dialogue_node, [doctor_symptom], 1, turn,
-                    candidate_diseases, possible_diseases, 1, gt_lower
+                    candidate_diseases, possible_diseases, 1, ground_truth.lower()
                 )
                 current_symptom = doctor_symptom
             elif patient_response == -1:
                 candidate_diseases, G, possible_diseases = self.graph_builder.create_graph(
                     G, dialogue_node, [doctor_symptom], -1, turn,
-                    candidate_diseases, possible_diseases, 2, gt_lower
+                    candidate_diseases, possible_diseases, 2, ground_truth.lower()
                 )
-            else:
+            
+            else:  # Don't know
                 avg_cooccur = self.calculate_avg_cooccurrence(
                     doctor_symptom, yes_symptoms, self.data_loader.co_occurrence_dict
                 )
+                
                 if avg_cooccur > DONT_KNOW_THRESHOLD:
                     response_val = 1
                     yes_symptoms.add(doctor_symptom)
                 else:
-                    response_val = -1
+                    response_val = 0
                 candidate_diseases, G, possible_diseases = self.graph_builder.create_graph(
                     G, dialogue_node, [doctor_symptom], response_val, turn,
-                    candidate_diseases, possible_diseases, 3, gt_lower
+                    candidate_diseases, possible_diseases, 3, ground_truth.lower()
                 )
             output_dict = self.pagerank_calc.calculate_disease_rank(G, dialogue_id)
             output_dict = self.modify_ppr(possible_diseases, output_dict)
@@ -207,7 +190,8 @@ class DiagnosisSystem:
                     predicted = list(possible_diseases)[0]
                 else:
                     predicted = list(output_dict.keys())[0] if output_dict else None
-                break
+                
+                return predicted, list(output_dict.keys()), turn, asked_symptoms
             turn += 1
         if not output_dict:
             output_dict = self.pagerank_calc.calculate_disease_rank(G, dialogue_id)
@@ -218,18 +202,5 @@ class DiagnosisSystem:
             predicted = keys[0]
         else:
             predicted = None
-        error_category = None
-        pruned_diseases = self.graph_builder.pruned_diseases.get(str(dialogue_id), [])
-        predicted_lower = predicted.lower() if isinstance(predicted, str) else (predicted[0].lower() if isinstance(predicted, list) and predicted else "")
-        if gt_lower != predicted_lower:
-            if not gt_in_initial_candidates:
-                error_category = "not_in_initial_candidates"
-            elif gt_lower in [d.lower() for d in pruned_diseases]:
-                error_category = "pruned_during_dialogue"
-            elif gt_lower in [k.lower() for k in keys]:
-                error_category = "present_but_not_top1"
-            else:
-                error_category = "other"
         
-        # NEW: Return error_category
-        return predicted, keys, turn-1, asked_symptoms, error_category
+        return predicted, list(output_dict.keys()), turn-1, asked_symptoms
