@@ -3,9 +3,6 @@ import pandas as pd
 from collections import defaultdict
 
 def load_files():
-    """
-    Load all the necessary data files.
-    """
     with open("/data-files/mddial/dict_patient_train.json", "r") as f:
         dict_patient_train = json.load(f)
     with open("/data-files/mddial/dict_patient_test.json", "r") as f:
@@ -29,8 +26,7 @@ def load_files():
     min_scores_df = min_scores_df.rename(columns={'weight': 'P(D|S)'})
     min_scores = min_scores_df.groupby('disease')['P(D|S)'].min().to_dict()
     min_scores = {k.capitalize(): v for k, v in min_scores.items()}
-
-
+    
     symp_to_dis = defaultdict(list)
     for disease, symptoms in disease_symptom_dict.items():
         for symptom in symptoms:
