@@ -99,7 +99,6 @@ def calculate_and_print_all_metrics(result_df, output_file='/output-path/evaluat
     output_lines.append(f"  Average Dialogue Length:  {avg_dialogue_length:.2f} turns")
     output_lines.append("\n[ SYMPTOM MATCHING QUALITY ]")
     output_lines.append(f"  Precision (vs. KG Symptoms):      {avg_precision:.4f} ({avg_precision*100:.2f}%)")
-    output_lines.append(f"  Recall (vs. KG Symptoms):         {avg_recall_kg:.4f} ({avg_recall_kg*100:.2f}%)")
     output_lines.append(f"  Recall (vs. Patient 'Yes' Symp):  {avg_recall_patient:.4f} ({avg_recall_patient*100:.2f}%)")
     output_lines.append("\n" + "=" * 60)
     for line in output_lines:
