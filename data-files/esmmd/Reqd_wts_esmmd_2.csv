@@ -1,0 +1,647 @@
+disease,symptom,weight
+acne,Acne or pimples,0.067
+acne,Abnormal appearing skin,0.027
+acne,Skin rash,0.013
+allergy,Cough,0.2
+allergy,Allergic reaction,0.133
+allergy,Skin rash,0.067
+allergy,Itchiness of eye,0.013
+allergy,Swollen tongue,0.013
+allergy,Skin swelling,0.013
+amyloidosis,Fatigue,0.094
+amyloidosis,Fever,0.062
+amyloidosis,Nailbiting,0.031
+amyloidosis,Eye strain,0.031
+amyloidosis,Anxiety and nervousness,0.031
+ankylosing spondylitis,Back pain,0.267
+ankylosing spondylitis,Low back pain,0.133
+ankylosing spondylitis,Joint pain,0.12
+ankylosing spondylitis,Leg pain,0.04
+ankylosing spondylitis,Hip pain,0.027
+ankylosing spondylitis,Ache all over,0.013
+ankylosing spondylitis,Elbow pain,0.013
+ankylosing spondylitis,Rib pain,0.013
+ankylosing spondylitis,Paresthesia,0.013
+anxiety,Depression,0.227
+anxiety,Headache,0.133
+anxiety,Palpitations,0.067
+anxiety,Shortness of breath,0.04
+anxiety,Insomnia,0.013
+anxiety,Increased heart rate,0.013
+anxiety,Depressive or psychotic symptoms,0.013
+anxiety,Anxiety and nervousness,0.013
+chickenpox,Fever,0.293
+chickenpox,Cough,0.107
+chickenpox,Skin lesion,0.08
+chickenpox,Skin rash,0.04
+chickenpox,Ache all over,0.013
+chickenpox,Eye redness,0.013
+chlamydia,Frequent urination,0.04
+chlamydia,Vaginal discharge,0.04
+chlamydia,Penile discharge,0.027
+chlamydia,Painful urination,0.027
+chlamydia,Vaginal itching,0.013
+chlamydia,Lower abdominal pain,0.013
+chlamydia,Pelvic pain,0.013
+chlamydia,Itching of skin,0.013
+chlamydia,Vaginal pain,0.013
+chronic back pain,Back pain,1
+chronic back pain,Low back pain,0.253
+chronic back pain,Leg pain,0.04
+chronic back pain,Neck pain,0.027
+chronic back pain,Lower body pain,0.027
+chronic back pain,Back cramps or spasms,0.027
+chronic back pain,Loss of sensation,0.013
+chronic back pain,Back stiffness or tightness,0.013
+chronic back pain,Hip pain,0.013
+chronic kidney disease,Fatigue,0.053
+chronic kidney disease,Shortness of breath,0.04
+chronic kidney disease,Symptoms of the kidneys,0.027
+chronic kidney disease,Peripheral edema,0.013
+concussion,Headache,0.4
+concussion,Dizziness,0.187
+concussion,Vomiting,0.173
+concussion,Nausea,0.16
+concussion,Neck pain,0.04
+concussion,Double vision,0.027
+concussion,Sleepiness,0.013
+connective tissue disorder,Fever,0.169
+connective tissue disorder,Fatigue,0.108
+connective tissue disorder,Joint pain,0.108
+connective tissue disorder,Headache,0.077
+connective tissue disorder,Feeling ill,0.031
+connective tissue disorder,Arm pain,0.015
+connective tissue disorder,Ache all over,0.015
+connective tissue disorder,Difficulty in swallowing,0.015
+connective tissue disorder,Lymphedema,0.015
+connective tissue disorder,Skin rash,0.015
+contact dermatitis,Skin rash,0.373
+contact dermatitis,Allergic reaction,0.227
+contact dermatitis,Skin swelling,0.013
+contact dermatitis,Itching of skin,0.013
+cystic fibrosis,Cough,0.412
+cystic fibrosis,Feeling ill,0.088
+cystic fibrosis,Intermenstrual bleeding,0.059
+cystic fibrosis,Muscle pain,0.029
+cystic fibrosis,Decreased appetite,0.029
+cystic fibrosis,Drainage in throat,0.029
+cystic fibrosis,Hemoptysis,0.029
+cystitis,Pelvic pain,0.053
+cystitis,Back pain,0.04
+cystitis,Lower abdominal pain,0.04
+cystitis,Blood in urine,0.027
+cystitis,Painful urination,0.027
+cystitis,Frequent urination,0.027
+cystitis,Symptoms of bladder,0.013
+cystitis,Side pain,0.013
+cystitis,Retention of urine,0.013
+degenerative disc disease,Back pain,0.333
+degenerative disc disease,Low back pain,0.08
+degenerative disc disease,Leg pain,0.053
+degenerative disc disease,Shoulder pain,0.04
+degenerative disc disease,Neck pain,0.027
+degenerative disc disease,Joint pain,0.013
+degenerative disc disease,Paresthesia,0.013
+degenerative disc disease,Hip pain,0.013
+degenerative disc disease,Loss of sensation,0.013
+degenerative disc disease,Ache all over,0.013
+dengue fever,Fever,1
+dengue fever,Wrist pain,0.027
+dengue fever,Shoulder cramps or spasms,0.013
+dengue fever,Sore throat,0.013
+diaper rash,Diaper rash,1
+diaper rash,Fever,0.274
+diaper rash,Diarrhea,0.164
+diaper rash,Skin rash,0.137
+diaper rash,Vomiting,0.068
+diaper rash,Cough,0.055
+diaper rash,Nasal congestion,0.041
+diaper rash,Temper problems,0.014
+diaper rash,Blood in stool,0.014
+eating disorder,Depression,0.167
+eating disorder,Difficulty eating,0.05
+eating disorder,Excessive appetite,0.05
+eating disorder,Weight gain,0.033
+eating disorder,Anxiety and nervousness,0.017
+eating disorder,Vomiting blood,0.017
+eczema,Skin rash,0.147
+eczema,Skin lesion,0.053
+eczema,Allergic reaction,0.053
+eczema,Warts,0.053
+eczema,Abnormal appearing skin,0.04
+eczema,Itching of skin,0.04
+eczema,Cough,0.027
+eczema,Skin irritation,0.013
+eczema,Skin swelling,0.013
+encephalitis,Headache,0.213
+encephalitis,Seizures,0.2
+encephalitis,Dizziness,0.067
+encephalitis,Fatigue,0.053
+encephalitis,Disturbance of memory,0.053
+encephalitis,Joint pain,0.04
+encephalitis,Insomnia,0.04
+encephalitis,Loss of sensation,0.027
+encephalitis,Leg pain,0.027
+encephalitis,Problems with movement,0.013
+encephalitis,Leg weakness,0.013
+encephalitis,Paresthesia,0.013
+endometrial cancer,Vaginal discharge,0.125
+endometrial cancer,Vaginal bleeding after menopause,0.104
+endometrial cancer,Cramps and spasms,0.062
+endometrial cancer,Pelvic pain,0.042
+endometrial cancer,Intermenstrual bleeding,0.042
+endometrial cancer,Absence of menstruation,0.021
+endometrial cancer,Vaginal itching,0.021
+endometrial cancer,Long menstrual periods,0.021
+endometrial hyperplasia,Heavy menstrual flow,0.121
+endometrial hyperplasia,Vaginal discharge,0.091
+endometrial hyperplasia,Muscle swelling,0.061
+endometrial hyperplasia,Vaginal bleeding after menopause,0.061
+endometrial hyperplasia,Low back weakness,0.061
+endometrial hyperplasia,Back weakness,0.061
+endometrial hyperplasia,Pelvic pain,0.061
+endometrial hyperplasia,Involuntary urination,0.03
+endometriosis,Infertility,0.173
+endometriosis,Pelvic pain,0.093
+endometriosis,Lower abdominal pain,0.08
+endometriosis,Sharp abdominal pain,0.027
+endometriosis,Vaginal pain,0.013
+endometriosis,Painful menstruation,0.013
+endometriosis,Hot flashes,0.013
+endometriosis,Burning abdominal pain,0.013
+epididymitis,Pain in testicles,0.253
+epididymitis,Swelling of scrotum,0.067
+epididymitis,Lower abdominal pain,0.04
+epididymitis,Lower body pain,0.027
+epididymitis,Blood in urine,0.027
+epididymitis,Swollen abdomen,0.013
+epididymitis,Painful urination,0.013
+epididymitis,Mass in scrotum,0.013
+epididymitis,Groin pain,0.013
+erectile dysfunction,Premature ejaculation,0.173
+erectile dysfunction,Impotence,0.04
+erectile dysfunction,Pain in testicles,0.027
+erectile dysfunction,Pain during intercourse,0.013
+erectile dysfunction,Involuntary urination,0.013
+erectile dysfunction,Penis pain,0.013
+erectile dysfunction,Loss of sex drive,0.013
+essential tremor,Fears and phobias,0.059
+essential tremor,Dizziness,0.039
+essential tremor,Abnormal involuntary movements,0.039
+essential tremor,Arm stiffness or tightness,0.039
+essential tremor,Muscle pain,0.039
+essential tremor,Headache,0.039
+essential tremor,Painful sinuses,0.02
+essential tremor,Loss of sensation,0.02
+essential tremor,Disturbance of memory,0.02
+essential tremor,Seizures,0.02
+fibromyalgia,Back pain,0.133
+fibromyalgia,Fatigue,0.133
+fibromyalgia,Headache,0.107
+fibromyalgia,Muscle pain,0.053
+fibromyalgia,Neck pain,0.04
+fibromyalgia,Shoulder pain,0.04
+fibromyalgia,Low back pain,0.04
+fibromyalgia,Leg pain,0.04
+fibromyalgia,Arm pain,0.013
+fibromyalgia,Hip pain,0.013
+fluid overload,Shortness of breath,0.111
+fluid overload,Fluid retention,0.111
+fluid overload,Leg swelling,0.089
+fluid overload,Vomiting,0.089
+fluid overload,Nausea,0.044
+fluid overload,Difficulty breathing,0.044
+fluid overload,Hand or finger swelling,0.044
+fluid overload,Cough,0.044
+fluid overload,Sharp chest pain,0.022
+fluid overload,Peripheral edema,0.022
+fluid overload,Sharp abdominal pain,0.022
+fluid overload,Weakness,0.022
+ganglion cyst,Wrist lump or mass,0.12
+ganglion cyst,Wrist swelling,0.067
+ganglion cyst,Wrist pain,0.067
+ganglion cyst,Knee pain,0.04
+ganglion cyst,Leg pain,0.027
+ganglion cyst,Knee lump or mass,0.027
+ganglion cyst,Knee swelling,0.013
+ganglion cyst,Leg swelling,0.013
+ganglion cyst,Hand or finger lump or mass,0.013
+gonorrhea,Vaginal discharge,0.07
+gonorrhea,Sharp abdominal pain,0.035
+gonorrhea,Vaginal pain,0.035
+gonorrhea,Vaginal itching,0.035
+gonorrhea,Penile discharge,0.035
+gonorrhea,Painful urination,0.018
+gonorrhea,Problems with movement,0.018
+gonorrhea,Spotting or bleeding during pregnancy,0.018
+gout,Joint pain,0.12
+gout,Ankle pain,0.107
+gout,Foot or toe swelling,0.08
+gout,Ankle swelling,0.08
+gout,Knee pain,0.067
+gout,Foot or toe pain,0.053
+gout,Leg swelling,0.04
+gout,Wrist pain,0.013
+graves disease,Dizziness,0.086
+graves disease,Involuntary urination,0.057
+graves disease,Hemoptysis,0.057
+graves disease,Fatigue,0.057
+graves disease,Palpitations,0.057
+graves disease,Leg cramps or spasms,0.029
+graves disease,"Muscle cramps, contractures, or spasms",0.029
+graves disease,Foot or toe swelling,0.029
+graves disease,Abnormal involuntary movements,0.029
+graves disease,Weight gain,0.029
+graves disease,Irregular heartbeat,0.029
+graves disease,Sweating,0.029
+acanthosis nigricans,Allergic reaction,0.231
+acanthosis nigricans,Apnea,0.154
+acanthosis nigricans,Fluid retention,0.154
+acanthosis nigricans,Infertility,0.154
+acanthosis nigricans,Weight gain,0.077
+acanthosis nigricans,Skin moles,0.077
+acanthosis nigricans,Pain or soreness of breast,0.077
+acanthosis nigricans,Skin lesion,0.077
+acanthosis nigricans,Skin growth,0.077
+acanthosis nigricans,Warts,0.077
+acariasis,Excessive growth,0.375
+acariasis,Swelling of scrotum,0.25
+acariasis,Skin rash,0.25
+acariasis,Cross-eyed,0.125
+acariasis,Emotional symptoms,0.125
+acariasis,Feeling hot and cold,0.125
+acariasis,Wrist weakness,0.125
+actinic keratosis,Abnormal appearing skin,0.5
+actinic keratosis,Skin lesion,0.5
+actinic keratosis,Skin swelling,0.2
+actinic keratosis,"Skin dryness, peeling, scaliness, or roughness",0.1
+actinic keratosis,Skin irritation,0.1
+actinic keratosis,Irregular appearing scalp,0.1
+actinic keratosis,Skin rash,0.1
+actinic keratosis,Skin growth,0.1
+actinic keratosis,Skin moles,0.1
+acute kidney injury,Vomiting,0.143
+acute kidney injury,Symptoms of the kidneys,0.107
+acute kidney injury,Sharp abdominal pain,0.071
+acute kidney injury,Dizziness,0.036
+acute kidney injury,Blood in urine,0.036
+acute kidney injury,Retention of urine,0.036
+acute kidney injury,Shortness of breath,0.036
+acute stress reaction,Depression,0.231
+acute stress reaction,Dizziness,0.231
+acute stress reaction,Abnormal involuntary movements,0.231
+acute stress reaction,Shortness of breath,0.154
+acute stress reaction,Headache,0.154
+acute stress reaction,Insomnia,0.154
+acute stress reaction,Sharp chest pain,0.077
+acute stress reaction,Fatigue,0.077
+acute stress reaction,Burning abdominal pain,0.077
+acute stress reaction,Chest tightness,0.077
+adhesive capsulitis of the shoulder,Shoulder swelling,0.875
+adhesive capsulitis of the shoulder,Shoulder pain,0.875
+adhesive capsulitis of the shoulder,Shoulder stiffness or tightness,0.625
+adhesive capsulitis of the shoulder,Stiffness all over,0.5
+adhesive capsulitis of the shoulder,Arm pain,0.25
+adhesive capsulitis of the shoulder,Ache all over,0.25
+adhesive capsulitis of the shoulder,Neck pain,0.25
+adhesive capsulitis of the shoulder,Muscle pain,0.125
+adjustment reaction,Delusions or hallucinations,0.286
+adjustment reaction,Fears and phobias,0.286
+adjustment reaction,Temper problems,0.286
+adjustment reaction,Depression,0.143
+adjustment reaction,Restlessness,0.143
+adjustment reaction,Anxiety and nervousness,0.143
+adjustment reaction,Excessive anger,0.143
+adjustment reaction,Nightmares,0.143
+air embolism,Pain during pregnancy,0.25
+air embolism,Pain or soreness of breast,0.125
+air embolism,Facial pain,0.125
+air embolism,Excessive anger,0.125
+air embolism,Fatigue,0.125
+air embolism,Excessive urination at night,0.125
+alcohol intoxication,Depression,0.083
+alcohol intoxication,Vomiting,0.083
+alcohol intoxication,Fainting,0.083
+alcohol intoxication,Sharp abdominal pain,0.083
+alcohol intoxication,Delusions or hallucinations,0.083
+alcohol intoxication,Depressive or psychotic symptoms,0.083
+alcohol intoxication,Nausea,0.083
+aphakia,Eye redness,0.429
+aphakia,Mass on eyelid,0.286
+aphakia,Pain in eye,0.143
+aphakia,Diminished vision,0.143
+aphakia,Symptoms of eye,0.143
+aphakia,Eye burns or stings,0.143
+carbon monoxide poisoning,Dizziness,0.182
+carbon monoxide poisoning,Headache,0.182
+carbon monoxide poisoning,Vomiting,0.182
+carbon monoxide poisoning,Diarrhea,0.182
+carbon monoxide poisoning,Nausea,0.091
+carbon monoxide poisoning,Elbow cramps or spasms,0.091
+carbon monoxide poisoning,Emotional symptoms,0.091
+carcinoid syndrome,Involuntary urination,0.2
+carcinoid syndrome,Loss of sex drive,0.2
+carcinoid syndrome,Joint stiffness or tightness,0.1
+carcinoid syndrome,Knee lump or mass,0.1
+carcinoid syndrome,Shoulder swelling,0.1
+carcinoid syndrome,Excessive growth,0.1
+carpal tunnel syndrome,Wrist pain,0.2
+carpal tunnel syndrome,Wrist swelling,0.15
+carpal tunnel syndrome,Hand or finger swelling,0.1
+carpal tunnel syndrome,Elbow pain,0.1
+carpal tunnel syndrome,Arm weakness,0.05
+carpal tunnel syndrome,Hand or finger pain,0.05
+carpal tunnel syndrome,Paresthesia,0.05
+cat scratch disease,Fever,0.2
+cat scratch disease,Headache,0.1
+cat scratch disease,Skin swelling,0.1
+cerebral edema,Headache,0.412
+cerebral edema,Vomiting,0.176
+cerebral edema,Neck pain,0.176
+cerebral edema,Dizziness,0.118
+cerebral edema,Arm pain,0.118
+cerebral edema,Diminished vision,0.118
+cerebral edema,Loss of sensation,0.118
+cerebral edema,Nausea,0.059
+cerebral edema,Difficulty speaking,0.059
+cerebral edema,Focal weakness,0.059
+chagas disease,Facial pain,0.286
+chagas disease,Excessive urination at night,0.286
+chagas disease,Fatigue,0.286
+chagas disease,Shoulder cramps or spasms,0.286
+chagas disease,Joint stiffness or tightness,0.143
+chagas disease,Excessive anger,0.143
+chagas disease,Wrist pain,0.143
+chalazion,Eyelid swelling,0.4
+chalazion,Eyelid lesion or rash,0.3
+chalazion,Swollen eye,0.3
+chalazion,Itchiness of eye,0.1
+chalazion,Pain in eye,0.05
+chalazion,Symptoms of eye,0.05
+chalazion,Mass on eyelid,0.05
+chalazion,Eye redness,0.05
+chancroid,Excessive anger,0.231
+chancroid,Fatigue,0.154
+chancroid,Ankle pain,0.154
+chancroid,Facial pain,0.154
+chancroid,Pain during pregnancy,0.154
+chancroid,Pain or soreness of breast,0.077
+chancroid,Wrist pain,0.077
+chancroid,Knee lump or mass,0.077
+chondromalacia of the patella,Knee pain,0.75
+chondromalacia of the patella,Knee weakness,0.5
+chondromalacia of the patella,Joint pain,0.25
+chondromalacia of the patella,Leg pain,0.25
+chondromalacia of the patella,Knee swelling,0.25
+chondromalacia of the patella,Knee stiffness or tightness,0.25
+chondromalacia of the patella,Problems with movement,0.125
+chondromalacia of the patella,Elbow pain,0.125
+chronic pain disorder,Sharp abdominal pain,0.5
+chronic pain disorder,Ache all over,0.333
+chronic pain disorder,Headache,0.333
+chronic pain disorder,Neck pain,0.333
+chronic pain disorder,Knee pain,0.333
+chronic pain disorder,Leg pain,0.167
+chronic pain disorder,Back pain,0.167
+chronic pain disorder,Low back pain,0.167
+chronic pain disorder,Pelvic pain,0.167
+complex regional pain syndrome,Back pain,0.308
+complex regional pain syndrome,Low back pain,0.231
+complex regional pain syndrome,Problems with movement,0.231
+complex regional pain syndrome,Neck pain,0.154
+complex regional pain syndrome,Arm pain,0.154
+complex regional pain syndrome,Abnormal involuntary movements,0.154
+complex regional pain syndrome,Loss of sensation,0.154
+complex regional pain syndrome,Leg pain,0.077
+complex regional pain syndrome,Foot or toe pain,0.077
+complex regional pain syndrome,Hand or finger pain,0.077
+complex regional pain syndrome,Ache all over,0.077
+conductive hearing loss,Diminished hearing,0.333
+conductive hearing loss,Difficulty speaking,0.222
+conductive hearing loss,Low self-esteem,0.222
+conductive hearing loss,Hoarse voice,0.222
+conductive hearing loss,Ear pain,0.111
+conductive hearing loss,Redness in ear,0.111
+conductive hearing loss,Lack of growth,0.111
+conductive hearing loss,Swollen or red tonsils,0.111
+conversion disorder,Seizures,0.273
+conversion disorder,Weakness,0.182
+conversion disorder,Depression,0.136
+conversion disorder,Cough,0.136
+conversion disorder,Allergic reaction,0.136
+conversion disorder,Fatigue,0.091
+conversion disorder,Focal weakness,0.045
+conversion disorder,Abnormal involuntary movements,0.045
+corneal abrasion,Pain in eye,0.462
+corneal abrasion,Swollen eye,0.231
+corneal abrasion,Symptoms of eye,0.231
+corneal abrasion,Diminished vision,0.154
+corneal abrasion,Eye redness,0.154
+corneal abrasion,Eye burns or stings,0.077
+corneal abrasion,White discharge from eye,0.077
+corneal abrasion,Lacrimation,0.077
+corneal abrasion,Eyelid swelling,0.077
+corneal disorder,Pain in eye,0.333
+corneal disorder,Double vision,0.167
+corneal disorder,Lacrimation,0.167
+corneal disorder,White discharge from eye,0.167
+corneal disorder,Swollen eye,0.167
+corneal disorder,Eye redness,0.167
+corneal disorder,Foreign body sensation in eye,0.167
+corneal disorder,Diminished vision,0.167
+cushing syndrome,Weight gain,0.286
+cushing syndrome,Shoulder pain,0.286
+cushing syndrome,Itching of scrotum,0.143
+cushing syndrome,Decreased heart rate,0.143
+cushing syndrome,Muscle swelling,0.143
+cushing syndrome,Emotional symptoms,0.143
+de quervain disease,Wrist pain,0.714
+de quervain disease,Arm pain,0.571
+de quervain disease,Wrist swelling,0.429
+de quervain disease,Hand or finger swelling,0.143
+de quervain disease,Abnormal involuntary movements,0.143
+de quervain disease,Wrist stiffness or tightness,0.143
+de quervain disease,Shoulder pain,0.143
+de quervain disease,Peripheral edema,0.143
+decubitus ulcer,Difficulty speaking,0.25
+decubitus ulcer,Incontinence of stool,0.25
+decubitus ulcer,Disturbance of smell or taste,0.125
+decubitus ulcer,Skin pain,0.125
+decubitus ulcer,Skin on leg or foot looks infected,0.125
+diabetes insipidus,Frequent urination,0.222
+diabetes insipidus,Dizziness,0.222
+diabetes insipidus,Elbow weakness,0.222
+diabetes insipidus,Emotional symptoms,0.111
+diabetes insipidus,Difficulty in swallowing,0.111
+diabetes insipidus,Excessive appetite,0.111
+diabetes insipidus,Elbow cramps or spasms,0.111
+diabetes insipidus,Nailbiting,0.111
+diabetic ketoacidosis,Nausea,0.19
+diabetic ketoacidosis,Diarrhea,0.143
+diabetic ketoacidosis,Vomiting,0.143
+diabetic ketoacidosis,Thirst,0.143
+diabetic ketoacidosis,Sharp chest pain,0.095
+diabetic ketoacidosis,Sharp abdominal pain,0.048
+diabetic ketoacidosis,Frequent urination,0.048
+diabetic peripheral neuropathy,Leg pain,0.231
+diabetic peripheral neuropathy,Loss of sensation,0.154
+diabetic peripheral neuropathy,Lymphedema,0.154
+diabetic peripheral neuropathy,Problems with movement,0.154
+diabetic peripheral neuropathy,Poor circulation,0.077
+diabetic peripheral neuropathy,Hand or finger cramps or spasms,0.077
+diabetic peripheral neuropathy,Foot or toe swelling,0.077
+diabetic peripheral neuropathy,Paresthesia,0.077
+diabetic retinopathy,Diminished vision,0.077
+diabetic retinopathy,Foreign body sensation in eye,0.038
+diabetic retinopathy,Pain in eye,0.038
+diabetic retinopathy,Symptoms of eye,0.038
+diabetic retinopathy,Double vision,0.038
+diabetic retinopathy,Blindness,0.038
+diabetic retinopathy,Bleeding from eye,0.038
+dissociative disorder,Depression,0.15
+dissociative disorder,Muscle swelling,0.1
+dissociative disorder,Back weakness,0.1
+dissociative disorder,Disturbance of memory,0.05
+dissociative disorder,Excessive anger,0.05
+dissociative disorder,Anxiety and nervousness,0.05
+dissociative disorder,Low back weakness,0.05
+dissociative disorder,Pus in urine,0.05
+drug reaction,Vomiting,0.273
+drug reaction,Peripheral edema,0.182
+drug reaction,Nausea,0.182
+drug reaction,Allergic reaction,0.091
+drug reaction,Dizziness,0.091
+drug reaction,Skin rash,0.091
+drug reaction,Abnormal appearing skin,0.091
+dyshidrosis,Skin lesion,0.833
+dyshidrosis,Skin rash,0.167
+dyshidrosis,Abnormal appearing skin,0.167
+dyshidrosis,Frequent urination,0.167
+dyshidrosis,Itching of skin,0.167
+dyshidrosis,Skin on leg or foot looks infected,0.167
+dyshidrosis,Dry or flaky scalp,0.167
+dyshidrosis,Ankle pain,0.167
+ectropion,Eyelid lesion or rash,0.429
+ectropion,Abnormal movement of eyelid,0.429
+ectropion,Itchiness of eye,0.286
+ectropion,Swollen eye,0.286
+endophthalmitis,Pain in eye,0.25
+endophthalmitis,Eye redness,0.25
+endophthalmitis,Skin lesion,0.25
+endophthalmitis,Swollen eye,0.125
+endophthalmitis,Foot or toe pain,0.125
+endophthalmitis,Painful sinuses,0.125
+endophthalmitis,Diminished vision,0.125
+epidural hemorrhage,Dizziness,0.429
+epidural hemorrhage,Feeling hot and cold,0.429
+epidural hemorrhage,Low back weakness,0.286
+epidural hemorrhage,Wrist weakness,0.286
+epidural hemorrhage,Back pain,0.286
+epidural hemorrhage,Emotional symptoms,0.286
+epidural hemorrhage,Depressive or psychotic symptoms,0.143
+epidural hemorrhage,Diminished hearing,0.143
+epidural hemorrhage,Side pain,0.143
+epidural hemorrhage,Elbow weakness,0.143
+epidural hemorrhage,Excessive growth,0.143
+erythema multiforme,Skin rash,0.25
+erythema multiforme,Allergic reaction,0.25
+erythema multiforme,Fever,0.25
+erythema multiforme,Skin lesion,0.25
+erythema multiforme,Mouth ulcer,0.125
+erythema multiforme,Fluid retention,0.125
+erythema multiforme,Skin pain,0.125
+erythema multiforme,Coryza,0.125
+erythema multiforme,Vomiting,0.125
+erythema multiforme,Difficulty in swallowing,0.125
+factitious disorder,Elbow cramps or spasms,0.286
+factitious disorder,Nailbiting,0.143
+fibrocystic breast disease,Frequent menstruation,0.5
+fibrocystic breast disease,Long menstrual periods,0.167
+fibrocystic breast disease,Absence of menstruation,0.167
+fibrocystic breast disease,Skin irritation,0.167
+fibrocystic breast disease,Pain or soreness of breast,0.167
+flat feet,Problems with movement,0.148
+flat feet,Ankle pain,0.074
+flat feet,Foot or toe pain,0.037
+flat feet,Cramps and spasms,0.037
+flat feet,Weight gain,0.037
+flat feet,Knee pain,0.037
+fracture of the pelvis,Difficulty speaking,0.3
+fracture of the pelvis,Delusions or hallucinations,0.3
+fracture of the pelvis,Hip pain,0.2
+fracture of the pelvis,Bones are painful,0.2
+fracture of the pelvis,Back pain,0.2
+fracture of the pelvis,Ache all over,0.2
+fracture of the pelvis,Leg pain,0.2
+fracture of the pelvis,Side pain,0.2
+fracture of the pelvis,Groin pain,0.1
+fracture of the rib,Rib pain,0.75
+fracture of the rib,Back pain,0.188
+fracture of the rib,Hip pain,0.125
+fracture of the rib,Shortness of breath,0.125
+fracture of the rib,Arm pain,0.062
+fracture of the rib,Ache all over,0.062
+fracture of the rib,Sharp chest pain,0.062
+fracture of the rib,Side pain,0.062
+gas gangrene,Shoulder cramps or spasms,0.2
+gas gangrene,Knee lump or mass,0.2
+gas gangrene,Wrist pain,0.1
+gas gangrene,Excessive anger,0.1
+gas gangrene,Sharp abdominal pain,0.1
+gas gangrene,Fatigue,0.1
+gas gangrene,Pain during pregnancy,0.1
+gas gangrene,Pain or soreness of breast,0.1
+granuloma inguinale,Sharp chest pain,0.333
+granuloma inguinale,Shoulder swelling,0.333
+granuloma inguinale,Vaginal pain,0.333
+granuloma inguinale,Excessive growth,0.333
+granuloma inguinale,Neck cramps or spasms,0.167
+granuloma inguinale,Knee lump or mass,0.167
+granuloma inguinale,Vulvar sore,0.167
+granuloma inguinale,Wrist weakness,0.167
+guillain barre syndrome,Loss of sensation,0.333
+guillain barre syndrome,Difficulty speaking,0.333
+guillain barre syndrome,Weakness,0.333
+guillain barre syndrome,Hand or finger pain,0.167
+guillain barre syndrome,Paresthesia,0.167
+guillain barre syndrome,Dizziness,0.167
+guillain barre syndrome,Leg pain,0.167
+guillain barre syndrome,Problems with movement,0.167
+acute glaucoma,Pain in eye,0.084
+acute glaucoma,Blindness,0.059
+acute glaucoma,Eye burns or stings,0.042
+acute glaucoma,Eye redness,0.042
+acute glaucoma,Diminished vision,0.034
+acute glaucoma,Lacrimation,0.025
+acute glaucoma,Foreign body sensation in eye,0.025
+acute glaucoma,Spots or clouds in vision,0.017
+acute glaucoma,Symptoms of eye,0.017
+acute glaucoma,Itchiness of eye,0.008
+alzheimer disease,Depression,0.174
+alzheimer disease,Hostile behavior,0.058
+alzheimer disease,Restlessness,0.058
+alzheimer disease,Eye burns or stings,0.029
+alzheimer disease,"Muscle cramps, contractures, or spasms",0.029
+alzheimer disease,Fears and phobias,0.029
+alzheimer disease,Problems with movement,0.029
+alzheimer disease,Difficulty speaking,0.014
+alzheimer disease,Irregular appearing scalp,0.014
+alzheimer disease,Depressive or psychotic symptoms,0.014
+alzheimer disease,Delusions or hallucinations,0.014
+dermatitis due to sun exposure,Skin rash,0.76
+dermatitis due to sun exposure,Itchy scalp,0.133
+dermatitis due to sun exposure,Skin lesion,0.093
+dermatitis due to sun exposure,Abnormal appearing skin,0.08
+dermatitis due to sun exposure,Skin swelling,0.027
+dermatitis due to sun exposure,Symptoms of the face,0.013
+dermatitis due to sun exposure,Lack of growth,0.013
+dermatitis due to sun exposure,Skin growth,0.013
+dermatitis due to sun exposure,"Skin dryness, peeling, scaliness, or roughness",0.013
+dermatitis due to sun exposure,Skin moles,0.013
+female infertility of unknown cause,Infertility,1
+female infertility of unknown cause,Absence of menstruation,0.105
+female infertility of unknown cause,Pain during intercourse,0.105
+female infertility of unknown cause,Loss of sex drive,0.053
+female infertility of unknown cause,Unwanted hair,0.053
+female infertility of unknown cause,Bleeding or discharge from nipple,0.053
+female infertility of unknown cause,Irregular belly button,0.053
