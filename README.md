@@ -7,7 +7,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Datasets](#datasets)
-
+- [References](#references)
 ---
 
 ## Requirements
@@ -67,18 +67,6 @@ The preprocessed MDDIAL dataset is provided in `data-files/mddial/`.
 
 **Original Dataset:** [MDDial GitHub Repository](https://github.com/srijamacherla24/MDDial/tree/main/data)
 
-<!-- **Citation:**
-```bibtex
-@article{macherla2023mddialmultiturndifferentialdiagnosis,
-      title={MDDial: A Multi-turn Differential Diagnosis Dialogue Dataset with Reliability Evaluation}, 
-      author={Srija Macherla and Man Luo and Mihir Parmar and Chitta Baral},
-      year={2023},
-      eprint={2308.08147},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2308.08147}, 
-}
-``` -->
 
 ### ES-MMD Dataset
 
@@ -87,35 +75,6 @@ The preprocessed MDDIAL dataset is provided in `data-files/mddial/`.
 **For access, please refer to:** [KI-MMDG GitHub Repository](https://github.com/NLP-RL/KI-MMDG)
 
 For reproducibility, sample preprocessed files are provided in `data-files/esmmd/` (files starting with `sample_*`).
-
-<!-- **Citation:**
-```bibtex
-@inproceedings{tiwari-etal-2024-seeing,
-    title = "Seeing Is Believing! towards Knowledge-Infused Multi-modal Medical Dialogue Generation",
-    author = "Tiwari, Abhisek  and
-      Bera, Shreyangshu  and
-      Verma, Preeti  and
-      Manthena, Jaithra Varma  and
-      Saha, Sriparna  and
-      Bhattacharyya, Pushpak  and
-      Dhar, Minakshi  and
-      Tiwari, Sarbajeet",
-    editor = "Calzolari, Nicoletta  and
-      Kan, Min-Yen  and
-      Hoste, Veronique  and
-      Lenci, Alessandro  and
-      Sakti, Sakriani  and
-      Xue, Nianwen",
-    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
-    month = may,
-    year = "2024",
-    address = "Torino, Italia",
-    publisher = "ELRA and ICCL",
-    url = "https://aclanthology.org/2024.lrec-main.1264/",
-    pages = "14513--14523",
-}
-``` -->
-
 ---
 
 ### Running on MDDIAL Dataset
@@ -130,23 +89,97 @@ python main.py
 **Alternative:** If running from a different directory, update the paths in `data_loader.py` accordingly.
 
 ### Running on ES-MMD Dataset
+#### Data Preprocessing
 
-#### Step 1: Prepare Data Files
+After obtaining the ES-MMD dataset, you need to preprocess the original CSV files into the required JSON format.
+
+#### Step 1: Create Training and Test JSON Files
+
+From the original ES-MMD CSV file, extract the following information for each dialogue:
+
+1. **Dialogue ID** - Unique identifier for each conversation
+2. **Symptoms** - Extract from BIO-tagged format
+3. **Intent** - Determine if symptom is affirmed (true) or denied (false)
+4. **Disease** - Final diagnosis from the dataset
+5. **Patient Reported Symptom** - Initial symptom that started the dialogue
+
+**Required JSON Format:**
+```
+{
+"12491": {
+"spots or clouds in vision": true,
+"symptoms of eye": true,
+"patient_reported_symptoms": "elbow pain",
+"ground_truth": "Central retinal artery or vein occlusion"
+},
+"12492": {
+"skin rash": true,
+"itching of skin": false,
+"patient_reported_symptoms": "skin lesion",
+"ground_truth": "Acne"
+}
+}
+```
+
+
+**Key Format Rules:**
+- **Keys:** Dialogue IDs (as strings)
+- **Values:** Dictionary containing:
+  - **Symptom keys:** Symptom names in **lowercase**
+  - **Symptom values:** `true` if Intent is "Affirmative", `false` if "Negative"
+  - **patient_reported_symptoms:** Initial symptom (lowercase)
+  - **ground_truth:** Disease name (original case from dataset)
+
+**Data Split:**
+- **Training Set:** 70% of dialogues → Save as `dict_train_esmmd.json`
+- **Test Set:** 30% of dialogues → Save as `dict_test_esmmd.json`
+###### Create Disease-Symptom Mapping
+
+Create `disease_symptom_esmmd.json` containing all possible symptoms for each disease.
+
+**Required Format:**
+```
+{
+"Acne": [
+"skin rash",
+"acne or pimples",
+"skin lesion",
+"abnormal appearing skin"
+],
+"Diabetes": [
+"increased thirst",
+"frequent urination",
+"fatigue"
+]
+}
+```
+**Key Format Rules:**
+- **Keys:** Disease names (exact match with ground_truth values)
+- **Values:** List of all possible symptoms (lowercase)
+
+**Generation Method:**
+- Aggregate all symptoms associated with each disease across the entire dataset
+- Remove duplicates
+- Ensure symptom names are in lowercase
+
+Refer to `sample_disease_symptom_esmmd.json` in the repository for the complete format.
+
+#### Step 2: Prepare Data Files
 
 Ensure all data files are in place:
 - ES-MMD dataset files (train/test JSON, symptom co-occurrence, disease-symptom mapping)
 - VGG19 embeddings (`vgg19_image_embeddings.npz`)
 - Image files in `/all_images/train/` and `test/`
 
-#### Step 2: Update Configuration
+#### Step 3: Update Configuration
 
 Update paths in `config.py`:
 
-#### Step 3: Verify SRWR Module
+#### Step 4: Verify SRWR Module
 
 Ensure SRWR module is accessible otherwise adjust the imports accordingly.
 
-#### Step 4: Run Diagnosis System
+#### Step 5: Run Diagnosis System
 
 ```bash
 cd esmmd-diagnosis
@@ -156,4 +189,12 @@ python main.py
 Results will be saved to the path specified in `RESULTS_OUTPUT_PATH` in `config.py`.
 
 ---
+
+
+## References
+
+- Tiwari, A., Bera, S., Verma, P., Manthena, J. V., Saha, S., Bhattacharyya, P., Dhar, M., & Tiwari, S. (2024). *Seeing Is Believing! Towards Knowledge-Infused Multi-modal Medical Dialogue Generation*. In N. Calzolari, M.-Y. Kan, V. Hoste, A. Lenci, S. Sakti, & N. Xue (Eds.), Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024) (pp. 14513–14523). ELRA and ICCL. [https://aclanthology.org/2024.lrec-main.1264](https://aclanthology.org/2024.lrec-main.1264)
+
+- Macherla, S., Luo, M., Parmar, M., & Baral, C. (2023). *MDDial: A Multi-turn Differential Diagnosis Dialogue Dataset with Reliability Evaluation*. arXiv preprint arXiv:2308.08147. [https://arxiv.org/abs/2308.08147](https://arxiv.org/abs/2308.08147)
+
 
