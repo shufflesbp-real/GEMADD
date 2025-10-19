@@ -189,7 +189,10 @@ python main.py
 Results will be saved to the path specified in `RESULTS_OUTPUT_PATH` in `config.py`.
 
 ---
-
+## Results from one-shot diagnosis based on all the symptoms
+**Running the ppr_on_kg.ipynb file**
+- For ESMMD dataset the data files such as SD++.p,SID.p,DID.p,new_dialog_symptom_map.p,new_all_self_report_file.p can be obtained from the [ KI-DDI repo](https://github.com/NLP-RL/KI-DDI).
+- For MDDIAL dataset the required data files are provided in the data-files mddial subfolder.
 
 ## References
 
