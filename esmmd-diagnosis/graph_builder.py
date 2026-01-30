@@ -1,16 +1,17 @@
 import networkx as nx
 from config import MIN_EDGE_WEIGHT_THRESHOLD
 
+
 class GraphBuilder:
     def __init__(self, p_d_given_s, min_scores, symp_to_dis, disease_symptom_dict):
         self.p_d_given_s = p_d_given_s
         self.min_scores = min_scores
         self.symp_to_dis = symp_to_dis
         self.disease_symptom_dict = disease_symptom_dict
-        self.pruned_diseases = {}
+        self.pruned_diseases = {} 
+        
     def create_graph(self, G, user_id, symptoms, weight, turn, 
                     candidate_diseases, possible_diseases, condition, ground_truth):
-
         dialogue_id = user_id.replace("user query_", "")
         if dialogue_id not in self.pruned_diseases:
             self.pruned_diseases[dialogue_id] = []
@@ -30,11 +31,13 @@ class GraphBuilder:
                     if dis_wt > MIN_EDGE_WEIGHT_THRESHOLD or dis == ground_truth:
                         G.add_edge(sym, dis, weight=dis_wt)
                         valid_connection = True
+                
                 elif turn == 0 or dis in self.symp_to_dis.get(sym, []):
                     dis_wt = self.min_scores.get(dis, 0.001)
                     G.add_edge(sym, dis, weight=dis_wt)
                     valid_connection = True
-                elif condition == 3:  # Don't know
+                
+                elif condition == 3: 
                     if weight == 1 and dis in self.symp_to_dis.get(sym, []):
                         dis_wt = self.min_scores.get(dis, 0.001)
                         G.add_edge(sym, dis, weight=dis_wt)
@@ -43,6 +46,7 @@ class GraphBuilder:
                 possible_diseases.remove(dis)
                 self.pruned_diseases[dialogue_id].append(dis)
         return candidate_diseases, G, possible_diseases
+    
     def create_graph_from_image(self, G, user_id, symptom_name, 
                                candidate_disease_dict, possible_diseases):
         dialogue_id = user_id.replace("user query_", "")
@@ -56,5 +60,4 @@ class GraphBuilder:
             dis = dis.lower()
             G.add_node(dis, type='disease')
             G.add_edge(symptom_name, dis, weight=round(val, 3))
-        
         return candidate_disease_dict.keys(), G, possible_diseases
