@@ -3,7 +3,6 @@ from reasoner import calc_dis_rank_1
 from utils import modify_ppr, should_stop_conversation
 from graph_builder import create_graph, prune_diseases
 
-# Threshold for the condition in the symptom inquiry where the response of patient is either not sure or the symptom is not present in ground truth conversation.
 DONT_KNOW_THRESHOLD = 0.15
 EDGE_WEIGHT_THRESHOLD = 0.005
 
@@ -77,6 +76,7 @@ def generate_responses(G, dialogue_node, patient_symptom, candidate_diseases, po
             last_symptom = doctor_response
             patient_symptom = doctor_response
             
+            # EXPLICIT PRUNING after positive response (Algorithm 1, Line 33)
             G, possible_set_of_diseases = prune_diseases(
                 G, possible_set_of_diseases, last_symptom, EDGE_WEIGHT_THRESHOLD
             )
@@ -96,6 +96,7 @@ def generate_responses(G, dialogue_node, patient_symptom, candidate_diseases, po
             )
             
             if avg_cooccur > DONT_KNOW_THRESHOLD:
+                # Treat as positive
                 yes_symptoms.add(doctor_response)
                 _, G, possible_set_of_diseases = create_graph(
                     G, dialogue_node, [doctor_response], 1, turn_counter,
@@ -105,6 +106,10 @@ def generate_responses(G, dialogue_node, patient_symptom, candidate_diseases, po
                 last_symptom = doctor_response
                 patient_symptom = doctor_response
                 
+                # EXPLICIT PRUNING after treating "Don't Know" as positive
+                # G, possible_set_of_diseases = prune_diseases(
+                #     G, possible_set_of_diseases, last_symptom, EDGE_WEIGHT_THRESHOLD
+                # )
             else:
                 # Treat as negative
                 _, G, possible_set_of_diseases = create_graph(
@@ -113,7 +118,7 @@ def generate_responses(G, dialogue_node, patient_symptom, candidate_diseases, po
                     p_d_given_s, min_scores, symp_to_dis
                 )
         
-        # Applying PageRank and check for threshold condition if any disease satisfies.
+        # Run PageRank and check stopping condition
         output_dict = calc_dis_rank_1(G, dialogue_id)
         output_dict = modify_ppr(possible_set_of_diseases, output_dict)
         
