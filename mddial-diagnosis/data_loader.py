@@ -7,14 +7,14 @@ def load_files():
         dict_patient_train = json.load(f)
     with open("/data-files/mddial/dict_patient_test.json", "r") as f:
         dict_patient_test = json.load(f)
-    with open("/data-files/mddial/symptom_co-occurence.json", "r") as f:
+    with open("/data-files/unified_symptom_co-occurence.json", "r") as f:
         co_occurrence_dict = json.load(f)
     with open('/data-files/mddial/symptom.txt', 'r') as file:
         symptom_list = [line.strip().lower() for line in file]
     with open("/data-files/mddial/disease_symptoms.txt") as f:
         disease_symptom_dict = json.load(f)
 
-    p_d_given_df = pd.read_csv("/data-files/mddial/conditional_probabilities_P_D_given_S.csv")
+    p_d_given_df = pd.read_csv("/data-files/conditional_probabilities_P_D_given_S.csv")
     p_d_given_s = defaultdict(dict)
     for _, row in p_d_given_df.iterrows():
         symptom = row['symptom']
@@ -22,8 +22,8 @@ def load_files():
         prob = row['P(D|S)']
         p_d_given_s[symptom][disease] = prob
 
-    min_scores_df = pd.read_csv("/data-files/mddial/Mddial_wts_2.csv")
-    min_scores_df = min_scores_df.rename(columns={'weight': 'P(D|S)'})
+    # min_scores_df = pd.read_csv("/data-files/mddial/Mddial_wts_2.csv")
+    # min_scores_df = min_scores_df.rename(columns={'weight': 'P(D|S)'})
     min_scores = min_scores_df.groupby('disease')['P(D|S)'].min().to_dict()
     min_scores = {k.capitalize(): v for k, v in min_scores.items()}
     
