@@ -11,13 +11,12 @@ P_D_GIVEN_S_PATH = f"/data-files/esmmd/Reqd_wts_esmmd_2.csv"
 TRAIN_IMAGE_DIR = f"/image-data-path/data-files/all_images/train/"
 TEST_IMAGE_DIR = f"/image-data/all_images/test/"
 
-# Download this file from https://drive.google.com/file/d/1lwfErF8Q0O7Gpyo_U7feCicYNG0m0KLc/view?usp=sharing and provide the path here
-IMAGE_EMBEDDINGS_PATH = f"/embedding-path/vgg19_image_embeddings.npz"
+IMAGE_EMBEDDINGS_PATH = f"/embedding-path/medclip_image_embeddings.npz"
 
 #Update with the output paths
 RESULTS_OUTPUT_PATH = f"/output-path/result_esmmd_mod1.csv"
 GRAPH_EDGE_DIR = "/output-path/graph-edges/"
-CLIP_MODEL_NAME = "ViT-B/32"
+# CLIP_MODEL_NAME = "ViT-B/32"
 
 # PageRank parameters
 PPR_C = 0.15
