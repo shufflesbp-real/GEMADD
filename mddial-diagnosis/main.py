@@ -9,7 +9,7 @@ from reasoner import calc_dis_rank_1
 from dialogue_manager import generate_responses
 from evaluation import calculate_and_print_all_metrics
 from error_analysis import analyze_diagnosis_errors, print_error_analysis
-from rank_aggregator import compute_cooccurrence_scores, reciprocal_rank_fusion 
+# from rank_aggregator import compute_cooccurrence_scores, reciprocal_rank_fusion 
 import time 
 
 def main():
