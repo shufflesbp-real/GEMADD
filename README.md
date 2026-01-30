@@ -52,10 +52,10 @@ pip install -r modified_requirements.txt
 
 Make sure the `srwr` module is accessible in your Python path.
 
-### 4. Download VGG19 Image Embeddings
-Download the pre-computed VGG19 embeddings from:
-- **Download Link:** [VGG19 Embeddings (Google Drive)-150 MB](https://drive.google.com/file/d/1lwfErF8Q0O7Gpyo_U7feCicYNG0m0KLc/view?usp=drive_link)
-- Place the downloaded `vgg19_image_embeddings.npz` file in the appropriate data directory
+### 4. Download MedCLIP Image Embeddings
+Download the pre-computed MedCLIP embeddings from:
+- **Download Link:** [MedCLIP Embeddings (Google Drive)](https://drive.google.com/file/d/1B_L1K7Snq8EYW1IPWXi8h2eRnBk13UHm/view?usp=sharing)
+- Place the downloaded `medclip_image_embeddings.npz` file in the appropriate data directory
 
 ---
 
