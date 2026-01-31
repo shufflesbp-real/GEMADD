@@ -1,0 +1,50 @@
+disease,symptom,weight
+acne,acne or pimples,0.067
+acne,abnormal appearing skin,0.027
+acne,skin rash,0.013
+allergy,cough,0.2
+allergy,allergic reaction,0.133
+allergy,skin rash,0.067
+allergy,itchiness of eye,0.013
+allergy,swollen tongue,0.013
+allergy,skin swelling,0.013
+amyloidosis,fatigue,0.094
+amyloidosis,fever,0.062
+amyloidosis,nailbiting,0.031
+amyloidosis,eye strain,0.031
+amyloidosis,anxiety and nervousness,0.031
+ankylosing spondylitis,back pain,0.267
+ankylosing spondylitis,low back pain,0.133
+ankylosing spondylitis,joint pain,0.12
+ankylosing spondylitis,leg pain,0.04
+ankylosing spondylitis,hip pain,0.027
+ankylosing spondylitis,ache all over,0.013
+ankylosing spondylitis,elbow pain,0.013
+ankylosing spondylitis,rib pain,0.013
+ankylosing spondylitis,paresthesia,0.013
+anxiety,depression,0.227
+anxiety,headache,0.133
+anxiety,palpitations,0.067
+anxiety,shortness of breath,0.04
+anxiety,insomnia,0.013
+anxiety,increased heart rate,0.013
+anxiety,depressive or psychotic symptoms,0.013
+anxiety,anxiety and nervousness,0.013
+chickenpox,fever,0.293
+chickenpox,cough,0.107
+chickenpox,skin lesion,0.08
+chickenpox,skin rash,0.04
+chickenpox,ache all over,0.013
+chickenpox,eye redness,0.013
+chlamydia,frequent urination,0.04
+chlamydia,vaginal discharge,0.04
+chlamydia,penile discharge,0.027
+chlamydia,painful urination,0.027
+chlamydia,vaginal itching,0.013
+chlamydia,lower abdominal pain,0.013
+chlamydia,pelvic pain,0.013
+chlamydia,itching of skin,0.013
+chlamydia,vaginal pain,0.013
+chronic back pain,back pain,1.0
+chronic back pain,low back pain,0.253
+chronic back pain,leg pain,0.04
