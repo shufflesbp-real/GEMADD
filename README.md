@@ -54,7 +54,7 @@ Make sure the `srwr` module is accessible in your Python path.
 
 ### 4. Download MedCLIP Image Embeddings
 Download the pre-computed MedCLIP embeddings from:
-- **Download Link:** [MedCLIP Embeddings (Google Drive)](https://drive.google.com/file/d/1B_L1K7Snq8EYW1IPWXi8h2eRnBk13UHm/view?usp=sharing)
+- **Download Link:** [MedCLIP Embeddings (Google Drive)]((https://drive.google.com/file/d/10VnnbD-j8Xl4RZR2Ttcj42KIaX5yw9y9/view?usp=sharing))
 - Place the downloaded `medclip_image_embeddings.npz` file in the appropriate data directory
 
 ---
