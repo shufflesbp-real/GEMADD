@@ -1,17 +1,17 @@
 # For these files only sample file is provided at "/data-files/esmmd/" is provided, update the path according to the original file.
 DICT_TRAIN_PATH = "/path-to-file/dict_train_esmmd.json"
 DICT_TEST_PATH = "/path-to-file/dict_test_esmmd.json"
-DISEASE_SYMPTOM_PATH = "/path-to-file/disease_symptom_esmmd.json"
+DISEASE_SYMPTOM_PATH = "/path-to-file/unified_disease_symptom.json"
 
 #For these files the entire file is available at /data-files/esmmd/
-SYMPTOM_COOCCURRENCE_PATH = "/data-files/esmmd/symptom_co-occurence_esmmd.json" 
-P_D_GIVEN_S_PATH = f"/data-files/esmmd/Reqd_wts_esmmd_2.csv"
+SYMPTOM_COOCCURRENCE_PATH = "/path-to-file/esmmd/symptom_co-occurence.json" 
+P_D_GIVEN_S_PATH = f"/path-to-file/esmmd/unified_wts.csv"
 
 # These are the image files download the files and keep all the train images in a single folder and test in another single folder
 TRAIN_IMAGE_DIR = f"/image-data-path/data-files/all_images/train/"
 TEST_IMAGE_DIR = f"/image-data/all_images/test/"
 
-IMAGE_EMBEDDINGS_PATH = f"/embedding-path/medclip_image_embeddings.npz"
+IMAGE_EMBEDDINGS_PATH = f"/path-to-file/medclip_image_embeddings.npz"
 
 #Update with the output paths
 RESULTS_OUTPUT_PATH = f"/output-path/result_esmmd_mod1.csv"
