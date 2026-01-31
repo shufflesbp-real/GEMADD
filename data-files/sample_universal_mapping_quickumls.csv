@@ -1,0 +1,59 @@
+entity,cui,cui_name,entity_type,dataset
+dizziness,C0042571,dizziness,symptom,mddial
+chest tightness,C0232292,chest tightness,symptom,mddial
+burning sensation behind the breastbone,C0241057,burning sensation,symptom,mddial
+chest tightness and shortness of breath,C2707305,shortness of breath,symptom,mddial
+pain behind the breastbone,C2598155,pain,symptom,mddial
+acid reflux,C0017168,acid reflux,symptom,mddial
+nausea,C4255480,nausea,symptom,mddial
+vomiting,C0042963,vomiting,symptom,mddial
+hard to swallow,C0011167,swallowed,symptom,mddial
+stomach ache,C0235309,stomach ache,symptom,mddial
+bloating,C5980104,bloating,symptom,mddial
+pharynx discomfort,C0242429,pharynx discomfort,symptom,mddial
+expectoration,C0038056,expectoration,symptom,mddial
+cough,C3815497,cough,symptom,mddial
+fever,C0424755,fever,symptom,mddial
+palpitations,C0030252,palpitations,symptom,mddial
+diarrhea,C2169706,diarrhea,symptom,mddial
+feel sick and vomit,C0027497,feel sick,symptom,mddial
+loss of appetite,C0003123,loss of appetite,symptom,mddial
+hiccup,C0019521,hiccup,symptom,mddial
+anorexia,C0426579,anorexia,symptom,mddial
+increased stool frequency,C0239978,increased stool frequency,symptom,mddial
+edema,C0013604,edemas,symptom,mddial
+constipation,C0949135,constipation nec,symptom,mddial
+bitter,C0235290,bitter,symptom,mddial
+thirst,C0426590,thirst,symptom,mddial
+hiccough,C0019521,hiccough,symptom,mddial
+hemoptysis,C0019079,hemoptysis,symptom,mddial
+runny nose,C1260880,runny nose,symptom,mddial
+twitch,C0231530,twitch,symptom,mddial
+suppuration,C0038862,suppuration,symptom,mddial
+chills and fever,C0085594,chills and fever,symptom,mddial
+black stool,C0025222,black stool,symptom,mddial
+sweating,C0038990,sweating,symptom,mddial
+shortness of breath,C2707305,shortness of breath,symptom,mddial
+poor spirits,C1547310,poor,symptom,mddial
+poor sleep,C0235162,poor sleep,symptom,mddial
+stuffy nose,C0027424,stuffy nose,symptom,mddial
+hoarse,C0019825,hoarse,symptom,mddial
+calcinosis,C0006663,calcinosis,disease,medxpertqa
+canalithiasis,C4728150,canalithiasis,disease,medxpertqa
+candida albicans,C1300192,candida albicans rast,disease,medxpertqa
+candida albicans infection,C0276680,candida albicans infection,disease,medxpertqa
+carcinoid syndrome,C0334299,carcinoid,disease,medxpertqa
+cardiac sarcoidosis,C0392077,cardiac sarcoidosis,disease,medxpertqa
+cardiac tamponade,C0007177,cardiac tamponade,disease,medxpertqa
+cardiogenic shock,C0036974,shock,disease,medxpertqa
+carpaltunnelsyndrome,C0007286,carpal tunnel syndrome,disease,medxpertqa
+cavernous hemangioma,C0018916,hemangioma,disease,medxpertqa
+cecal volvulus,C0238047,cecal volvulus,disease,medxpertqa
+celiac disease,C0007570,celiac,disease,medxpertqa
+cellulitis,C2025995,cellulitis,disease,medxpertqa
+central retinal-vein occlusion,C0948441,vein occlusion,disease,medxpertqa
+central slip rupture,C0719205,central,disease,medxpertqa
+ceramic bearing failure,C1704689,bearing,disease,medxpertqa
+ceramic bearing fracture,C1704689,bearing,disease,medxpertqa
+cerebral atrophy,C0228174,cerebral,disease,medxpertqa
+cerebral venous thrombosis,C0151945,cerebral venous thrombosis,disease,medxpertqa
