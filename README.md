@@ -86,6 +86,27 @@ data-files/mddial/
 Original dataset reference:  
 https://github.com/srijamacherla24/MDDial
 
+Sample from the original Dataset:
+```
+    "Dialog 9": [
+        {
+            "patient": "I have been feeling Shortness of breath and Hiccup",
+            "doctor": "In that case, do you have any Pharynx discomfort?"
+        },
+        {
+            "patient": "No, I never had anything like that.",
+            "doctor": "Is it? Then do you experience Cough?"
+        },
+        {
+            "patient": "Yes Doctor, I am feeling that as well",
+            "doctor": "What about Acid reflux?"
+        },
+        {
+            "patient": "Yes Doctor, I am feeling that as well",
+            "doctor": "Ok, this means you might be having Esophagitis."
+        }
+    ]
+```
 ---
 
 ### ES-MMD Dataset
@@ -101,6 +122,18 @@ data-files/esmmd/
 
 Files provided in this directory are prefixed with `sample_*` and demonstrate the expected data format.
 
+Sample from the original Dataset:
+```
+| Patient | Doctor | Symptom | IntentType | Image Information | Severity |
+|--------|--------|---------|------------|-------------------|----------|
+| Doctor, I see Spots or clouds in my vision. I can't see anything clearly. I feel helpless. | I understand how you feel. I need to ask a few questions to diagnose your disease. Have you got Diminished vision? | O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O | Symptom |  |  |
+| True, I am also dealing with Diminished vision. | Do you have Symptoms of eye? | O O O O O O O B-Symptom I-Symptom O | Symptom |  |  |
+| Yes, I have got Symptoms of eye. | Have you felt Pain in eye? | O O O O O B-Symptom I-Symptom I-Symptom O | Symptom |  |  |
+| Indeed, I am suffering from Pain in eye. | Your symptoms indicate that you have Central retinal artery or vein occlusion. | O O O O O O B-Symptom I-Symptom I-Symptom O | Symptom |  |  |
+| Disease: Central retinal artery or vein occlusion, Group: 7 |  |  |  |  |  |
+
+```
+
 ---
 
 ### MedXpertQA Dataset
@@ -109,9 +142,15 @@ MedXpertQA is originally released in a question–answer format. GEMADD uses **o
 
 Users are required to:
 - Identify diagnosis-type questions
-- Extract relevant symptom–disease evidence from the QA pairs
+- Extract relevant symptom–disease evidence from the QA pairs using Medical LLM like Baichuan
 
-Due to licensing and redistribution constraints, no processed MedXpertQA files are included in this repository.
+Sample from the original dataset:
+```
+A 30-year-old male presents to primary care with complaints of gradually worsening fatigue and shortness of breath over several months. His medical history reveals no smoking, alcohol use, or illicit drug use, and his family history is noncontributory. He reports travel to South America one year prior but cannot recall any illness afterward. His vital signs show a temperature of 37.0°C (98.6°F), heart rate of 75/min, and blood pressure of 131/80 mmHg. Clinical examination reveals visible respiratory distress, a systolic murmur at the cardiac apex, and bilateral diffuse rales on lung auscultation. A cardiac biopsy is performed. Based on the biopsy findings shown, what is the most probable cause of the patient's condition?
+
+Answer Choices:
+(A) Autoimmune granulomatous disease (B) Viral infection (C) Bacterial infection (D) Fungal infection (E) Parasitic infection
+```
 
 ---
 
