@@ -146,10 +146,15 @@ Users are required to:
 
 Sample from the original dataset:
 ```
-A 30-year-old male presents to primary care with complaints of gradually worsening fatigue and shortness of breath over several months. His medical history reveals no smoking, alcohol use, or illicit drug use, and his family history is noncontributory. He reports travel to South America one year prior but cannot recall any illness afterward. His vital signs show a temperature of 37.0°C (98.6°F), heart rate of 75/min, and blood pressure of 131/80 mmHg. Clinical examination reveals visible respiratory distress, a systolic murmur at the cardiac apex, and bilateral diffuse rales on lung auscultation. A cardiac biopsy is performed. Based on the biopsy findings shown, what is the most probable cause of the patient's condition?
+A 30-year-old male presents to primary care with complaints of gradually worsening fatigue and shortness of breath over several months.
+His medical history reveals no smoking, alcohol use, or illicit drug use, and his family history is noncontributory.
+He reports travel to South America one year prior but cannot recall any illness afterward. His vital signs show a temperature of 37.0°C (98.6°F), heart rate of 75/min, and blood pressure of 131/80 mmHg.
+Clinical examination reveals visible respiratory distress, a systolic murmur at the cardiac apex, and bilateral diffuse rales on lung auscultation.
+A cardiac biopsy is performed. Based on the biopsy findings shown, what is the most probable cause of the patient's condition?
 
 Answer Choices:
-(A) Autoimmune granulomatous disease (B) Viral infection (C) Bacterial infection (D) Fungal infection (E) Parasitic infection
+(A) Autoimmune granulomatous disease (B) Viral infection (C) Bacterial infection
+(D) Fungal infection (E) Parasitic infection
 ```
 
 ---
